@@ -3,8 +3,66 @@
     background-position: 0 0; }
   to {
     background-position: -10000000000px 0; } }
+@font-face {
+  font-family: candy;
+  src: url(fonts/candycutes.ttf); }
+.wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column; }
+
+#main {
+  display: flex;
+  flex-direction: row; }
+
+.menu {
+  border: 1px solid black;
+  padding: 15px; }
+
+.species {
+  border: 1px solid black;
+  width: 200px;
+  display: flex;
+  flex-direction: row; }
+
+svg path {
+  fill: pink; }
+
 body {
+  font-family: candy;
   margin: 0;
   padding: 0; }
+
+nav {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: salmon; }
+
+.logo {
+  margin-left: 50px; }
+
+.customizer {
+  background: salmon;
+  width: auto;
+  height: auto; }
+  .customizer img {
+    width: 100px;
+    height: auto; }
+  .customizer .character-picker {
+    background: lightblue; }
+    .customizer .character-picker .color-picker {
+      background: gray;
+      width: 100%;
+      height: 100px; }
+  .customizer .character-display {
+    background: lightgreen; }
+  .customizer .menu {
+    display: flex;
+    flex-direction: column; }
+    .customizer .menu .eyes {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap; }
 
 /*# sourceMappingURL=styles.css.map */
