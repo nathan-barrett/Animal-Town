@@ -1,0 +1,27 @@
+@keyframes backgroundScroll {
+  from {
+    background-position: 0 0; }
+  to {
+    background-position: -10000000000px 0; } }
+.wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column; }
+
+#main {
+  display: flex;
+  flex-direction: row; }
+
+.menu {
+  border: 1px solid black;
+  padding: 15px; }
+
+.species {
+  border: 1px solid black;
+  width: 200px; }
+  .species ul {
+    list-style: none; }
+    .species ul li {
+      display: inline-block; }
+
+/*# sourceMappingURL=main.css.map */

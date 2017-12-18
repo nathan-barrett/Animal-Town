@@ -1,0 +1,27 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#main {
+  display: flex;
+  flex-direction: row;
+}
+
+.menu {
+  border: 1px solid black;
+  padding: 15px;
+}
+
+.species {
+  border: 1px solid black;
+  width: 200px;
+
+  & ul {
+    list-style: none;
+    & li {
+      display: inline-block;
+    }
+  }
+}
