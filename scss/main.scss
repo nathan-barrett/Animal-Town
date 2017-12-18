@@ -10,10 +10,11 @@
 }
 
 body {
+  font-family: candy;
   margin: 0;
   padding: 0;
-  // background: red;
 }
+
 
 nav {
   display: flex;
@@ -27,7 +28,7 @@ nav {
 }
 
 .customizer {
-  background: red;
+  background: salmon;
   width: auto;
   height: auto;
 
@@ -37,14 +38,24 @@ nav {
   }
 
   .character-picker {
-    background: yellow;
+    background: lightblue;
     .color-picker {
-      background: green;
+      background: gray;
       width: 100%;
       height: 100px;
     }
   }
   .character-display {
-    background: purple;
+    background: lightgreen;
   }
+  .menu {
+    display: flex;
+    flex-direction: column;
+    .eyes {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+  }
+
 }
