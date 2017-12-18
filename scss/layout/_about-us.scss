@@ -1,0 +1,45 @@
+.about-us {
+  position: absolute;
+  background: #d3eef7;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.teammate {
+  border: 2px dashed salmon;
+  border-radius: 20px;
+  position: relative;
+  background: lightyellow;
+  width: 70vw;
+  height: 19vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+  .pic {
+    border: 2px dashed salmon;
+    border-radius: 20px;
+    margin: 2px;
+    background: lightgray;
+    height: 150px;
+    width: 150px;
+  }
+  .bio {
+    border: 2px dashed salmon;
+    border-radius: 20px;
+    margin: 2px;
+    background: #cef1ce;
+    color: salmon;
+    width: 450px;
+    padding: 2%;
+  }
+}
+
+.teammate:nth-child(even) {
+  flex-direction: row-reverse;
+}

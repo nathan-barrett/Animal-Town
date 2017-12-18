@@ -24,7 +24,7 @@ nav {
 }
 
 .customizer {
-  background: salmon;
+  background: $color4;
   width: auto;
   height: auto;
 
@@ -34,7 +34,7 @@ nav {
   }
 
   .character-picker {
-    background: lightblue;
+    background: $color3;
     .color-picker {
       background: gray;
       width: 100%;
@@ -42,7 +42,7 @@ nav {
     }
   }
   .character-display {
-    background: lightgreen;
+    background: $color2;
   }
   .menu {
     display: flex;
