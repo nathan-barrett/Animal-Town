@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAAA,2BAEC;EADC,IAAK;IAAC,mBAAmB,EAAE,GAAG;EAAG,EAAG;IAAC,mBAAmB,EAAE,gBAAgB",
-"sources": ["../scss/abstracts/_animations.scss"],
+"mappings": "AAAA,2BAEC;EADC,IAAK;IAAC,mBAAmB,EAAE,GAAG;EAAG,EAAG;IAAC,mBAAmB,EAAE,gBAAgB;ACK5E,IAAK;EACH,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC",
+"sources": ["../scss/abstracts/_animations.scss","../scss/main.scss"],
 "names": [],
 "file": "styles.css"
 }
