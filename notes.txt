@@ -1,0 +1,29 @@
+ASCII ART IN README???
+
+Animal Town Character Customizer!
+
+Flexbox for the page
+
+
+MONDAY
+  Amy - buttons
+  Lena - page design/scss
+  Lew - JS canvas functionality
+  Nathan - JS canvas functionality
+
+
+Animations - background (slow scroll)
+
+
+
+
+TO-DO LIST:
+Base selector - color select drop-down from that
+Eyes/Nose/Mouth selector - color select drop-down from that
+Gray out not-selected parts
+Body to show up on canvas
+Body parts to show up on the body on the canvas
+Scrolling background
+Dynastid - click to show About Us page
+
+ABOUT US STUFF
