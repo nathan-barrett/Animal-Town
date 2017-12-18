@@ -21,11 +21,12 @@
 
 .species {
   border: 1px solid black;
-  width: 200px; }
-  .species ul {
-    list-style: none; }
-    .species ul li {
-      display: inline-block; }
+  width: 200px;
+  display: flex;
+  flex-direction: row; }
+
+svg path {
+  fill: pink; }
 
 body {
   font-family: candy;
@@ -56,5 +57,12 @@ nav {
       height: 100px; }
   .customizer .character-display {
     background: lightgreen; }
+  .customizer .menu {
+    display: flex;
+    flex-direction: column; }
+    .customizer .menu .eyes {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap; }
 
 /*# sourceMappingURL=styles.css.map */

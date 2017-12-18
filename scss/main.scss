@@ -43,4 +43,13 @@ nav {
   .character-display {
     background: lightgreen;
   }
+  .menu {
+    display: flex;
+    flex-direction: column;
+    .eyes {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+  }
 }
