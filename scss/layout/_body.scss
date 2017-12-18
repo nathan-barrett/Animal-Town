@@ -4,23 +4,22 @@
   flex-direction: column;
 }
 
-#main {
-  display: flex;
-  flex-direction: row;
-}
-
 .menu {
-  border: 1px solid black;
   padding: 15px;
 }
 
 .species {
-  border: 1px solid black;
-  width: 200px;
   display: flex;
+  align-items: center;
   flex-direction: row;
+
+  & object {
+    float: left;
+  }
+  & object:hover {
+    fill: #fff;
+  }
 }
 
-svg path {
-  fill: pink;
+.species::after {
 }
