@@ -25,3 +25,5 @@ Body to show up on canvas
 Body parts to show up on the body on the canvas
 Scrolling background
 Dynastid - click to show About Us page
+
+ABOUT US STUFF
