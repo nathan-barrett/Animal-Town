@@ -8,4 +8,39 @@
 body {
   margin: 0;
   padding: 0;
+  // background: red;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: $color1;
+}
+
+.logo {
+  margin-left: 50px;
+}
+
+.customizer {
+  background: red;
+  width: auto;
+  height: auto;
+
+  img {
+    width: 100px;
+    height: auto;
+  }
+
+  .character-picker {
+    background: yellow;
+    .color-picker {
+      background: green;
+      width: 100%;
+      height: 100px;
+    }
+  }
+  .character-display {
+    background: purple;
+  }
 }
