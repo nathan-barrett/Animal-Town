@@ -3,6 +3,9 @@
     background-position: 0 0; }
   to {
     background-position: -10000000000px 0; } }
+@font-face {
+  font-family: candy;
+  src: url(fonts/candycutes.ttf); }
 .wrapper {
   display: flex;
   align-items: center;
@@ -25,6 +28,7 @@
       display: inline-block; }
 
 body {
+  font-family: candy;
   margin: 0;
   padding: 0; }
 
@@ -38,19 +42,19 @@ nav {
   margin-left: 50px; }
 
 .customizer {
-  background: red;
+  background: salmon;
   width: auto;
   height: auto; }
   .customizer img {
     width: 100px;
     height: auto; }
   .customizer .character-picker {
-    background: yellow; }
+    background: lightblue; }
     .customizer .character-picker .color-picker {
-      background: green;
+      background: gray;
       width: 100%;
       height: 100px; }
   .customizer .character-display {
-    background: purple; }
+    background: lightgreen; }
 
 /*# sourceMappingURL=styles.css.map */
