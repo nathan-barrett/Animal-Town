@@ -53,8 +53,27 @@ window.onload();
     var ctx = canvas.getContext("2d");
     var img = new Image();
     img.src = "img/bear-head.svg";
-
     ctx.drawImage(img, 210, 140, 200, 200);
+  });
+  $('#mouth1').click(function(){
+    var canvas = document.getElementById("canvas");
+    var ctx = canvas.getContext("2d");
+    var img = document.getElementById("mouth1");
+    // ctx.clearRect(285, 270, 50, 50);
+    ctx.rect(285, 270, 50, 50);
+    ctx.fillStyle = "rgb(204, 166, 232)";
+    ctx.fillRect(285, 270, 50, 50);
+    ctx.drawImage(img, 285, 270, 50, 50);
+  });
+  $('#mouth2').click(function(){
+    var canvas = document.getElementById("canvas");
+    var ctx = canvas.getContext("2d");
+    var img = document.getElementById("mouth2");
+    // ctx.clearRect(285, 270, 50, 50);
+    ctx.rect(285, 270, 50, 50);
+    ctx.fillStyle = "rgb(204, 166, 232)";
+    ctx.fillRect(285, 270, 50, 50);
+    ctx.drawImage(img, 285, 270, 50, 50);
   });
 
 
