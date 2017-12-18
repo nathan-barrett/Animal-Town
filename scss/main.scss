@@ -21,6 +21,7 @@ nav {
   flex-direction: row;
   width: 100%;
   background-color: $color1;
+  z-index: 10;
 }
 
 .logo {
@@ -31,12 +32,10 @@ nav {
   background: $color4;
   width: auto;
   height: auto;
-
   img {
     width: 100px;
     height: auto;
   }
-
   .character-picker {
     background: $color3;
     .color-picker {
@@ -57,5 +56,18 @@ nav {
       flex-wrap: wrap;
     }
   }
+}
 
+.dynastid-link {
+  position: absolute;
+  top: 30px;
+  left: 180px;
+  z-index: 5;
+  img {
+    max-width: 50px;
+    height: auto;
+  }
+  .dynastid {
+    transform: rotate(-33.2deg);
+  }
 }
