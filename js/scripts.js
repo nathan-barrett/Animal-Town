@@ -1,4 +1,5 @@
 $(document).ready(function(){
+
   window.onload = function(){
    var canvas = document.getElementById("canvas");
    var ctx = canvas.getContext("2d");
@@ -50,7 +51,9 @@ window.onload();
   $('#head1').click(function(){
     var canvas = document.getElementById("canvas");
     var ctx = canvas.getContext("2d");
-    var img = document.getElementById("head1");
+    var img = new Image();
+    img.src = "img/bear-head.svg";
+
     ctx.drawImage(img, 210, 140, 200, 200);
   });
 
