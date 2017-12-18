@@ -18,10 +18,11 @@
 
 .species {
   border: 1px solid black;
-  width: 200px; }
-  .species ul {
-    list-style: none; }
-    .species ul li {
-      display: inline-block; }
+  width: 200px;
+  display: flex;
+  flex-direction: row; }
+
+svg path {
+  fill: pink; }
 
 /*# sourceMappingURL=main.css.map */

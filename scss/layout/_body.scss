@@ -17,11 +17,10 @@
 .species {
   border: 1px solid black;
   width: 200px;
+  display: flex;
+  flex-direction: row;
+}
 
-  & ul {
-    list-style: none;
-    & li {
-      display: inline-block;
-    }
-  }
+svg path {
+  fill: pink;
 }
