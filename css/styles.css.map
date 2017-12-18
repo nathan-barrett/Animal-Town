@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AAAA,2BAEC;EADC,IAAK;IAAC,mBAAmB,EAAE,GAAG;EAAG,EAAG;IAAC,mBAAmB,EAAE,gBAAgB",
+"sources": ["../scss/abstracts/_animations.scss"],
 "names": [],
 "file": "styles.css"
 }
