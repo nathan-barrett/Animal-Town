@@ -5,6 +5,10 @@
       "layout/modules",
       "layout/body";
 
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
 body {
   font-family: candy;
   margin: 0;

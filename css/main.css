@@ -8,22 +8,20 @@
   align-items: center;
   flex-direction: column; }
 
-#main {
-  display: flex;
-  flex-direction: row; }
-
 .menu {
-  border: 1px solid black;
   padding: 15px; }
 
 .species {
-  border: 1px solid black;
-  width: 200px;
   display: flex;
+  align-items: center;
   flex-direction: row; }
+  .species object {
+    float: left; }
+  .species object:hover {
+    fill: #fff; }
 
-svg path {
-  fill: pink; }
+*, *::after, *::before {
+  box-sizing: border-box; }
 
 body {
   margin: 0;
