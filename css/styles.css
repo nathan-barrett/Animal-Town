@@ -15,6 +15,9 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center; }
+  .about-us nav {
+    position: absolute;
+    top: 0; }
 
 .teammate {
   border: 2px dashed salmon;
@@ -22,7 +25,8 @@
   position: relative;
   background: lightyellow;
   width: 70vw;
-  height: 19vh;
+  height: auto;
+  padding: 24px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -40,7 +44,7 @@
     margin: 2px;
     background: #cef1ce;
     color: salmon;
-    width: 450px;
+    width: 45%;
     padding: 2%; }
 
 .teammate:nth-child(even) {
@@ -51,29 +55,40 @@
   align-items: center;
   flex-direction: column; }
 
-#main {
-  display: flex;
-  flex-direction: row; }
-
 .menu {
-  border: 1px solid black;
   padding: 15px; }
 
-svg path {
-  fill: pink; }
+
+.species {
+  display: flex;
+  align-items: center;
+  flex-direction: row; }
+  .species object {
+    float: left; }
+  .species object:hover {
+    fill: #fff; }
+
 
 .wrapper {
   display: flex;
   align-items: center;
   flex-direction: column; }
 
-#main {
-  display: flex;
-  flex-direction: row; }
-
 .menu {
-  border: 1px solid black;
   padding: 15px; }
+
+
+.species {
+  display: flex;
+  align-items: center;
+  flex-direction: row; }
+  .species object {
+    float: left; }
+  .species object:hover {
+    fill: #fff; }
+
+*, *::after, *::before {
+  box-sizing: border-box; }
 
 
 body {
@@ -85,16 +100,21 @@ nav {
   display: flex;
   flex-direction: row;
   width: 100%;
-  background-color: salmon; }
+  background-color: salmon;
+  z-index: 10; }
 
 .logo {
   margin-left: 50px; }
 
 .customizer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   background: lightyellow;
   width: auto;
   height: auto; }
-  .customizer img {
+  .customizer img, .customizer svg {
     width: 100px;
     height: auto; }
   .customizer .character-picker {
@@ -112,5 +132,16 @@ nav {
       display: flex;
       flex-direction: row;
       flex-wrap: wrap; }
+
+.dynastid-link {
+  position: absolute;
+  top: 30px;
+  left: 180px;
+  z-index: 5; }
+  .dynastid-link img {
+    max-width: 50px;
+    height: auto; }
+  .dynastid-link .dynastid {
+    transform: rotate(-33.2deg); }
 
 /*# sourceMappingURL=styles.css.map */
