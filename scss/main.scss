@@ -58,9 +58,32 @@ nav {
       height: 100px;
     }
   }
+
   .character-display {
     background: $color2;
+    position: relative;
+    & canvas {
+      position: absolute;
+      z-index: 4
+    }
+    // & #canvas {
+    //   z-index: 1;
+    //   position: absolute;
+    // }
+    // & #eye {
+    //   z-index: 2;
+    //   position: absolute;
+    // }
+    // & #mouth {
+    //   z-index: 3;
+    //   position: absolute;
+    // }
+    // & #nose {
+    //   z-index: 4;
+    //   position: absolute;
+    // }
   }
+
   .menu {
     border: 2px dashed salmon;
     height: 500px;
