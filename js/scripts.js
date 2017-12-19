@@ -8,6 +8,16 @@ $(document).ready(function(){
  };
 window.onload();
 
+// window.onload = function(){
+//   $.get('img/body.svg'), function(svgXml) {
+//     var img = new Image();
+//     var jimbo = svgXml.replace("#4286f4");
+//     img.src = "data:image/svg+xml;charset=utf-8,"+jimbo;
+//     context.drawImage(img, 130, 250, 350, 350);
+//     };
+//   };
+//   window.onload();
+
   $('#eye1').click(function(){
     var canvas = document.getElementById("canvas");
     var ctx = canvas.getContext("2d");
@@ -42,7 +52,7 @@ window.onload();
     ctx.clearRect(320, 200, 50, 50);
     ctx.rect(250, 200, 50, 50);
     ctx.rect(320, 200, 50, 50);
-    ctx.fillStyle = "rgb(204, 166, 232)";
+    ctx.fillStyle = "#fa807200";
     ctx.fill();
     ctx.drawImage(img, 250, 200, 50, 50);
     ctx.drawImage(img, 320, 200, 50, 50);
@@ -131,5 +141,10 @@ window.onload();
     ctx.fillRect(285, 240, 50, 50);
     ctx.drawImage(img, 285, 240, 50, 50);
   });
+  // $('#cheese').click(function(){
+  //   var convas = document.getElementById("canvas");
+  //   var img = canvas.toDataURL('image/png');
+  //   document.write('<img src="'+img+'"/>');
+  // });
 
 });
