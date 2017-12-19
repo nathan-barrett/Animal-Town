@@ -81,9 +81,9 @@ window.onload();
     var ctx = canvas.getContext("2d");
     var img = document.getElementById("mouth1");
     // ctx.clearRect(285, 270, 50, 50);
-    ctx.rect(285, 270, 50, 50);
+    // ctx.rect(295, 290, 50, 20);
     ctx.fillStyle = "rgb(204, 166, 232)";
-    ctx.fillRect(285, 270, 50, 50);
+    ctx.fillRect(285, 285, 50, 20);
     ctx.drawImage(img, 285, 270, 50, 50);
   });
   $('#mouth2').click(function(){
@@ -91,11 +91,45 @@ window.onload();
     var ctx = canvas.getContext("2d");
     var img = document.getElementById("mouth2");
     // ctx.clearRect(285, 270, 50, 50);
-    ctx.rect(285, 270, 50, 50);
     ctx.fillStyle = "rgb(204, 166, 232)";
     ctx.fillRect(285, 270, 50, 50);
     ctx.drawImage(img, 285, 270, 50, 50);
   });
-
+  $('#nose1').click(function(){
+    var canvas = document.getElementById("canvas");
+    var ctx = canvas.getContext("2d");
+    var img = document.getElementById("nose1");
+    // ctx.clearRect(285, 270, 50, 50);
+    ctx.fillStyle = "rgb(204, 166, 232)";
+    ctx.fillRect(285, 240, 50, 50);
+    ctx.drawImage(img, 285, 240, 50, 50);
+  });
+  $('#nose2').click(function(){
+    var canvas = document.getElementById("canvas");
+    var ctx = canvas.getContext("2d");
+    var img = document.getElementById("nose2");
+    // ctx.clearRect(285, 270, 50, 50);
+    ctx.fillStyle = "rgb(204, 166, 232)";
+    ctx.fillRect(285, 240, 50, 50);
+    ctx.drawImage(img, 285, 240, 50, 50);
+  });
+  $('#nose3').click(function(){
+    var canvas = document.getElementById("canvas");
+    var ctx = canvas.getContext("2d");
+    var img = document.getElementById("nose3");
+    // ctx.clearRect(285, 270, 50, 50);
+    ctx.fillStyle = "rgb(204, 166, 232)";
+    ctx.fillRect(285, 240, 50, 50);
+    ctx.drawImage(img, 285, 240, 50, 50);
+  });
+  $('#nose4').click(function(){
+    var canvas = document.getElementById("canvas");
+    var ctx = canvas.getContext("2d");
+    var img = document.getElementById("nose4");
+    // ctx.clearRect(285, 270, 50, 50);
+    ctx.fillStyle = "rgb(204, 166, 232)";
+    ctx.fillRect(285, 240, 50, 50);
+    ctx.drawImage(img, 285, 240, 50, 50);
+  });
 
 });
