@@ -35,13 +35,28 @@ $(document).ready(function(){
   });
 
   $('#head1').click(function(){
+    $('#head1 img').css('background', 'rgba(209, 66, 41, .3)');
+    $('#head2 img').css('background', 'none');
+    $('#head3 img').css('background', 'none')
     $('.color-menu-1').css("display", "inline-flex");
+    $('.color-menu-2').css("display", "none");
+    $('.color-menu-3').css("display", "none");
   });
   $('#head2').click(function(){
+    $('#head1 img').css('background', 'none');
+    $('#head2 img').css('background', 'rgba(209, 66, 41, .3)');
+    $('#head3 img').css('background', 'none')
     $('.color-menu-2').css("display", "inline-flex");
+    $('.color-menu-1').css("display", "none");
+    $('.color-menu-3').css("display", "none");
   });
   $('#head3').click(function(){
+    $('#head1 img').css('background', 'none');
+    $('#head3 img').css('background', 'rgba(209, 66, 41, .3)');
+    $('#head2 img').css('background', 'none')
     $('.color-menu-3').css("display", "inline-flex");
+    $('.color-menu-2').css("display", "none");
+    $('.color-menu-1').css("display", "none");
   });
 
   // $('#head2').click(function(){
