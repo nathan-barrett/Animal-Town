@@ -10,3 +10,11 @@
 
   }
 }
+
+@keyframes slide {
+  0% { top: -100%; }
+  25% { top: -50%; opacity: 0.2;}
+  50% { top: 0%; opacity: .5; }
+  75% { top: 45%; opacity: .7; }
+  100% { top: 90%; display: inline-flex; opacity: 1;}
+}
