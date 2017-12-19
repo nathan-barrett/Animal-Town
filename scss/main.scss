@@ -32,13 +32,14 @@ a {
   }
 }
 
-
 nav {
   display: flex;
   flex-direction: row;
   width: 100%;
   background-color: $color1;
   z-index: 10;
+  text-shadow: -1px 0 white,0 1px white,1px 0 white,0 -1px white;
+  font-weight: bolder;
 }
 
 .logo {
@@ -51,10 +52,10 @@ nav {
   justify-content: center;
   align-items: center;
   background: $color4;
-  width: auto;
+  width: 50vw;
   height: auto;
   img, svg {
-    width: 100px;
+    max-width: 25px;
     height: auto;
   }
   .character-picker {
@@ -69,13 +70,12 @@ nav {
     background: $color2;
   }
   .menu {
+    border: 2px dashed salmon;
+    height: 500px;
     display: flex;
     flex-direction: column;
-    .eyes {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-    }
+    align-items: center;
+    justify-content: space-around;
   }
 }
 
