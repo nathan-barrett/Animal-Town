@@ -133,8 +133,16 @@ $(document).ready(function(){
     var canvas = document.getElementById("eye");
     var ctx = canvas.getContext("2d");
     var img = document.getElementById("eye3");
-    ctx.clearRect(250, 50, 50, 50);
-    ctx.drawImage(img, 250, 50, 50, 50);
+    ctx.clearRect(250, 200, 50, 50);
+    ctx.clearRect(320, 200, 50, 50);
+    ctx.rect(250, 200, 50, 50);
+    ctx.rect(320, 200, 50, 50);
+    ctx.fillStyle = "#fa807200";
+    ctx.fill();
+    ctx.drawImage(img, 250, 200, 50, 50);
+    ctx.drawImage(img, 320, 200, 50, 50);
+  });
+
   });
 
   $('#eye4').click(function(){
