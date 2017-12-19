@@ -13,6 +13,11 @@ body {
   font-family: candy;
   margin: 0;
   padding: 0;
+  background-image: url(../png/animalcrossingbackground.png);
+  background-repeat: repeat-x;
+  animation: backgroundScroll 37000s linear infinite;
+  background-size: cover;
+  overflow: hidden;
 }
 
 a {

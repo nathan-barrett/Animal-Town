@@ -1,5 +1,11 @@
 @keyframes backgroundScroll {
-  from {background-position: 0 0;} to {background-position: -10000000000px 0;}
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    // background-position: 100% 0;
+    background-position: -1500000px 0;
+  }
 }
 
 @keyframes dynastid {
