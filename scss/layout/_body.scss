@@ -17,6 +17,7 @@
   display: inline-flex;
   justify-content: space-around;
   margin-bottom: 30px;
+  width: 60%;
   a {
     display: inline-block;
     position: relative;
@@ -29,7 +30,8 @@
     [class*='color-menu-'] {
       position: absolute;
       display: none;
-      border: 1px solid black;
+      top: 90%;
+      left: -30%;
       min-width: 100px;
       // display: inline-flex;
       margin-right: 25px;
