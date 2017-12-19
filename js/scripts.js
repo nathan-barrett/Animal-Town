@@ -62,6 +62,20 @@ window.onload();
     img.src = "img/cat-head.svg";
     ctx.drawImage(img, 200, 100, 220, 250);
   });
+  $('#head3').click(function(){
+    var canvas = document.getElementById("canvas");
+    var ctx = canvas.getContext("2d");
+    var img = new Image();
+    img.src = "img/rabbit-head.svg";
+    ctx.drawImage(img, 180, 70, 250, 280);
+  });
+  $('#head4').click(function(){
+    var canvas = document.getElementById("canvas");
+    var ctx = canvas.getContext("2d");
+    var img = new Image();
+    img.src = "img/dog-head.svg";
+    ctx.drawImage(img, 180, 100, 250, 280);
+  });
   $('#mouth1').click(function(){
     var canvas = document.getElementById("canvas");
     var ctx = canvas.getContext("2d");
