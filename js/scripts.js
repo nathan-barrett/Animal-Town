@@ -7,6 +7,34 @@ var head = function(cheese){
   ctx.drawImage(img, 120, 100, 400, 400);
 }
 
+var eye = function(jimbo){
+  var canvas = document.getElementById('eye');
+  var ctx = canvas.getContext("2d");
+  var img = new Image();
+  img.src = jimbo;
+  ctx.clearRect(160, 110, 320, 320);
+  ctx.drawImage(img, 160, 110, 320, 320);
+}
+
+var nose = function(dad){
+  var canvas = document.getElementById('nose');
+  var ctx = canvas.getContext("2d");
+  var img = new Image();
+  img.src = dad;
+  ctx.clearRect(160, 120, 320, 320);
+  ctx.drawImage(img, 160, 120, 320, 320);
+}
+
+var mouth = function(grasshopper){
+  var canvas = document.getElementById('mouth');
+  var ctx = canvas.getContext("2d");
+  var img = new Image();
+  img.src = grasshopper;
+  ctx.clearRect(160, 135, 320, 320);
+  ctx.drawImage(img, 160, 135, 320, 320);
+}
+
+
 $(document).ready(function(){
 
   //HEAD SELECTION
@@ -96,61 +124,85 @@ $(document).ready(function(){
 
 
 //EYE SELECTION
+
   $('#eye1').click(function(){
-    var canvas = document.getElementById("eye");
-    var ctx = canvas.getContext("2d");
-    var img = document.getElementById("eye1");
-    ctx.clearRect(160, 110, 320, 320);
-    ctx.drawImage(img, 160, 110, 320, 320);
+    eye('png/eyes1.png');
   });
 
   $('#eye2').click(function(){
-    var canvas = document.getElementById("eye");
-    var ctx = canvas.getContext("2d");
-    var img = document.getElementById("eye2");
-    ctx.clearRect(160, 110, 320, 320);
-    ctx.drawImage(img, 160, 110, 320, 320);
+    eye('png/eyes2.png');
   });
 
   $('#eye3').click(function(){
-    var canvas = document.getElementById("eye");
-    var ctx = canvas.getContext("2d");
-    var img = document.getElementById("eye3");
-    ctx.clearRect(160, 110, 320, 320);
-    ctx.drawImage(img, 160, 110, 320, 320);
+    eye('png/eyes3.png');
   });
+
   $('#eye4').click(function(){
-    var canvas = document.getElementById("eye");
-    var ctx = canvas.getContext("2d");
-    var img = document.getElementById("eye4");
-    ctx.clearRect(160, 110, 320, 320);
-    ctx.drawImage(img, 160, 110, 320, 320);
+    eye('png/eyes4.png');
   });
 
   $('#eye5').click(function(){
-    var canvas = document.getElementById("eye");
-    var ctx = canvas.getContext("2d");
-    var img = document.getElementById("eye5");
-    ctx.clearRect(160, 110, 320, 320);
-    ctx.drawImage(img, 160, 110, 320, 320);
+    eye('png/eyes5.png');
   });
 
   $('#eye6').click(function(){
-    var canvas = document.getElementById("eye");
-    var ctx = canvas.getContext("2d");
-    var img = document.getElementById("eye6");
-    ctx.clearRect(160, 110, 320, 320);
-    ctx.drawImage(img, 160, 110, 320, 320);
+    eye('png/eyes6.png');
   });
 
   $('#eye7').click(function(){
-    var canvas = document.getElementById("eye");
-    var ctx = canvas.getContext("2d");
-    var img = document.getElementById("eye7");
-    ctx.clearRect(160, 110, 320, 320);
-    ctx.drawImage(img, 160, 110, 320, 320);
+    eye('png/eyes7.png');
   });
+
 //NOSE SELECTION
+
+  $('#nose1').click(function(){
+    nose('png/nose1.png');
+  });
+
+  $('#nose2').click(function(){
+    nose('png/nose2.png');
+  });
+
+  $('#nose3').click(function(){
+    nose('png/nose2.png');
+  });
+
+  $('#nose4').click(function(){
+    nose('png/nose4.png');
+  });
+
+  $('#nose5').click(function(){
+    nose('png/nose5.png');
+  });
+
 //MOUTH SELECTION
+
+  $('#mouth1').click(function(){
+    mouth('png/mouth1.png');
+  });
+
+  $('#mouth2').click(function(){
+    mouth('png/mouth2.png');
+  });
+
+  $('#mouth3').click(function(){
+    mouth('png/mouth3.png');
+  });
+
+  $('#mouth4').click(function(){
+    mouth('png/mouth4.png');
+  });
+
+  $('#mouth5').click(function(){
+    mouth('png/mouth5.png');
+  });
+
+  $('#mouth6').click(function(){
+    mouth('png/mouth6.png');
+  });
+
+  $('#mouth7').click(function(){
+    mouth('png/mouth7.png');
+  });
 
 });
