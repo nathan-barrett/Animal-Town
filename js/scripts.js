@@ -3,8 +3,9 @@ $(document).ready(function(){
   window.onload = function(){
    var canvas = document.getElementById("canvas");
    var ctx = canvas.getContext("2d");
-   var img = document.getElementById("body");
-   ctx.drawImage(img, 130, 250, 350, 350);
+   var img = new Image();
+   img.src = "img/body.svg";
+   ctx.drawImage(img, 50, 250, 350, 350);
  };
 window.onload();
 
