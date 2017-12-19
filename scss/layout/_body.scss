@@ -20,21 +20,25 @@
   a {
     display: inline-block;
     position: relative;
-    // padding: 0 20%;
     &:hover {
       background-color: rgba(209, 66, 41, .3);
     }
-    .color-menu {
+    img {
+      // margin-left: 30px;
+    }
+    [class*='color-menu-'] {
       position: absolute;
+      display: none;
       border: 1px solid black;
       min-width: 100px;
-      display: inline-flex;
+      // display: inline-flex;
+      margin-right: 25px;
       justify-content: space-around;
       * {
         border-radius: 50%;
-        width: 20px;
-        height: 20px;
-        padding: 2px 5px;
+        width: 30px;
+        height: 30px;
+        margin: 2px 5px;
       }
       .orange {
         background: orange;

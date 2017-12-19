@@ -80,24 +80,25 @@
     position: relative; }
     .species a:hover {
       background-color: rgba(209, 66, 41, 0.3); }
-    .species a .color-menu {
+    .species a [class*='color-menu-'] {
       position: absolute;
+      display: none;
       border: 1px solid black;
       min-width: 100px;
-      display: inline-flex;
+      margin-right: 25px;
       justify-content: space-around; }
-      .species a .color-menu * {
+      .species a [class*='color-menu-'] * {
         border-radius: 50%;
-        width: 20px;
-        height: 20px;
-        padding: 2px 5px; }
-      .species a .color-menu .orange {
+        width: 30px;
+        height: 30px;
+        margin: 2px 5px; }
+      .species a [class*='color-menu-'] .orange {
         background: orange; }
-      .species a .color-menu .grey {
+      .species a [class*='color-menu-'] .grey {
         background: grey; }
-      .species a .color-menu .green {
+      .species a [class*='color-menu-'] .green {
         background: green; }
-      .species a .color-menu .blue {
+      .species a [class*='color-menu-'] .blue {
         background: blue; }
 
 section#main canvas#canvas {
@@ -125,24 +126,25 @@ section#main canvas#canvas {
     position: relative; }
     .species a:hover {
       background-color: rgba(209, 66, 41, 0.3); }
-    .species a .color-menu {
+    .species a [class*='color-menu-'] {
       position: absolute;
+      display: none;
       border: 1px solid black;
       min-width: 100px;
-      display: inline-flex;
+      margin-right: 25px;
       justify-content: space-around; }
-      .species a .color-menu * {
+      .species a [class*='color-menu-'] * {
         border-radius: 50%;
-        width: 20px;
-        height: 20px;
-        padding: 2px 5px; }
-      .species a .color-menu .orange {
+        width: 30px;
+        height: 30px;
+        margin: 2px 5px; }
+      .species a [class*='color-menu-'] .orange {
         background: orange; }
-      .species a .color-menu .grey {
+      .species a [class*='color-menu-'] .grey {
         background: grey; }
-      .species a .color-menu .green {
+      .species a [class*='color-menu-'] .green {
         background: green; }
-      .species a .color-menu .blue {
+      .species a [class*='color-menu-'] .blue {
         background: blue; }
 
 section#main canvas#canvas {
