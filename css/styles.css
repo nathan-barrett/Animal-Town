@@ -55,29 +55,40 @@
   align-items: center;
   flex-direction: column; }
 
-#main {
-  display: flex;
-  flex-direction: row; }
-
 .menu {
-  border: 1px solid black;
   padding: 15px; }
 
-svg path {
-  fill: pink; }
+
+.species {
+  display: flex;
+  align-items: center;
+  flex-direction: row; }
+  .species object {
+    float: left; }
+  .species object:hover {
+    fill: #fff; }
+
 
 .wrapper {
   display: flex;
   align-items: center;
   flex-direction: column; }
 
-#main {
-  display: flex;
-  flex-direction: row; }
-
 .menu {
-  border: 1px solid black;
   padding: 15px; }
+
+
+.species {
+  display: flex;
+  align-items: center;
+  flex-direction: row; }
+  .species object {
+    float: left; }
+  .species object:hover {
+    fill: #fff; }
+
+*, *::after, *::before {
+  box-sizing: border-box; }
 
 
 body {
@@ -96,10 +107,14 @@ nav {
   margin-left: 50px; }
 
 .customizer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   background: lightyellow;
   width: auto;
   height: auto; }
-  .customizer img {
+  .customizer img, .customizer svg {
     width: 100px;
     height: auto; }
   .customizer .character-picker {
