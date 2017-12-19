@@ -55,6 +55,13 @@ window.onload();
     img.src = "img/bear-head.svg";
     ctx.drawImage(img, 210, 140, 200, 200);
   });
+  $('#head2').click(function(){
+    var canvas = document.getElementById("canvas");
+    var ctx = canvas.getContext("2d");
+    var img = new Image();
+    img.src = "img/cat-head.svg";
+    ctx.drawImage(img, 200, 100, 220, 250);
+  });
   $('#mouth1').click(function(){
     var canvas = document.getElementById("canvas");
     var ctx = canvas.getContext("2d");
