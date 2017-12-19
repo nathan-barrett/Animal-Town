@@ -58,6 +58,7 @@
 .menu {
   padding: 15px; }
 
+
 .species {
   display: flex;
   align-items: center;
@@ -67,6 +68,7 @@
   .species object:hover {
     fill: #fff; }
 
+
 .wrapper {
   display: flex;
   align-items: center;
@@ -74,6 +76,7 @@
 
 .menu {
   padding: 15px; }
+
 
 .species {
   display: flex;
@@ -86,6 +89,7 @@
 
 *, *::after, *::before {
   box-sizing: border-box; }
+
 
 body {
   font-family: candy;
