@@ -60,19 +60,22 @@ window.onload();
   });
 
   $('#head1').click(function(){
-    var canvas = document.getElementById("canvas");
-    var ctx = canvas.getContext("2d");
-    var img = new Image();
-    img.src = "img/bear-head.svg";
-    ctx.drawImage(img, 210, 140, 200, 200);
+    $('.color-menu-1').css("display", "inline-flex");
   });
   $('#head2').click(function(){
-    var canvas = document.getElementById("canvas");
-    var ctx = canvas.getContext("2d");
-    var img = new Image();
-    img.src = "img/cat-head.svg";
-    ctx.drawImage(img, 200, 100, 220, 250);
+    $('.color-menu-2').css("display", "inline-flex");
   });
+  $('#head3').click(function(){
+    $('.color-menu-3').css("display", "inline-flex");
+  });
+
+  // $('#head2').click(function(){
+  //   var canvas = document.getElementById("canvas");
+  //   var ctx = canvas.getContext("2d");
+  //   var img = new Image();
+  //   img.src = "img/cat-head.svg";
+  //   ctx.drawImage(img, 200, 100, 220, 250);
+  // });
   $('#head3').click(function(){
     var canvas = document.getElementById("canvas");
     var ctx = canvas.getContext("2d");
