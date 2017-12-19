@@ -10,17 +10,13 @@
 }
 
 .species {
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-
-  & object {
-    float: left;
+  &ul {
+    list-style: none;
   }
-  & object:hover {
-    fill: #fff;
+  &li {
+    display: inline-block;
   }
-}
-
-.species::after {
+  & li:hover {
+    background-color: red;
+  }
 }

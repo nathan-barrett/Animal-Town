@@ -59,12 +59,6 @@
   border: 1px solid black;
   padding: 15px; }
 
-.species {
-  border: 1px solid black;
-  width: 200px;
-  display: flex;
-  flex-direction: row; }
-
 svg path {
   fill: pink; }
 
@@ -81,14 +75,6 @@ svg path {
   border: 1px solid black;
   padding: 15px; }
 
-.species {
-  border: 1px solid black;
-  width: 200px;
-  display: flex;
-  flex-direction: row; }
-
-svg path {
-  fill: pink; }
 
 body {
   font-family: candy;
