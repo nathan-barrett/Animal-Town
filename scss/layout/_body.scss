@@ -61,7 +61,8 @@
 }
 
 section#main {
-  canvas#canvas {
+  canvas {
+    background-color: transparent;
     height: 600px;
     width: 450px;
   }
