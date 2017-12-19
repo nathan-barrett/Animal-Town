@@ -73,7 +73,8 @@
 
 .species {
   display: inline-flex;
-  justify-content: space-around; }
+  justify-content: space-evenly;
+  width: 60%; }
   .species a {
     display: inline-block;
     position: relative; }
@@ -117,7 +118,8 @@ section#main canvas#canvas {
 
 .species {
   display: inline-flex;
-  justify-content: space-around; }
+  justify-content: space-evenly;
+  width: 60%; }
   .species a {
     display: inline-block;
     position: relative; }
