@@ -25,6 +25,7 @@
     background-size: 80px 80px;
     img {
       border-radius: 50%;
+      margin-bottom: 10px;
     }
     img:hover {
       background-color: rgba(209, 66, 41, .3);
@@ -33,11 +34,10 @@
     }
     [class*='color-menu-'] {
       position: absolute;
-      display: none;
       top: 90%;
       left: -30%;
       min-width: 100px;
-      // display: inline-flex;
+      display: none;
       margin-right: 25px;
       justify-content: space-around;
       * {
@@ -48,15 +48,27 @@
       }
       .orange {
         background: orange;
+        &:hover {
+          transform: scale(1.5);
+        }
       }
-      .grey {
-        background: grey;
+      .red {
+        background: red;
+        &:hover {
+          transform: scale(1.5);
+        }
       }
       .green {
         background: green;
+        &:hover {
+          transform: scale(1.5);
+        }
       }
       .blue {
         background: blue;
+        &:hover {
+          transform: scale(1.5);
+        }
       }
     }
   }

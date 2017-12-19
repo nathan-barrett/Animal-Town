@@ -11,11 +11,19 @@ $(document).ready(function(){
 
   //HEAD SELECTION
     $('#head1').click(function(){
+      $('#head1 img').css('background', 'rgba(209, 66, 41, .3)');
+      $('#head2 img').css('background', 'none');
+      $('#head3 img').css('background', 'none')
       $('.color-menu-1').css("display", "inline-flex");
+      $('.color-menu-1').css("animation", "slide .4s linear");
+      $('.color-menu-2').css("display", "none");
+      $('.color-menu-3').css("display", "none");
     });
 
     $('#head1 .orange').click(function(){
+
       head('png/bunny-yellow.png');
+
     });
 
     $('#head1 .red').click(function(){
@@ -33,7 +41,13 @@ $(document).ready(function(){
     //CAT HEAD
 
     $('#head2').click(function(){
+      $('#head1 img').css('background', 'none');
+      $('#head2 img').css('background', 'rgba(209, 66, 41, .3)');
+      $('#head3 img').css('background', 'none')
+      $('.color-menu-2').css("animation", "slide .4s linear");
       $('.color-menu-2').css("display", "inline-flex");
+      $('.color-menu-1').css("display", "none");
+      $('.color-menu-3').css("display", "none");
     });
 
     $('#head2 .orange').click(function(){
@@ -55,7 +69,13 @@ $(document).ready(function(){
 
     //DOG HEAD
     $('#head3').click(function(){
+      $('#head1 img').css('background', 'none');
+      $('#head3 img').css('background', 'rgba(209, 66, 41, .3)');
+      $('#head2 img').css('background', 'none')
       $('.color-menu-3').css("display", "inline-flex");
+      $('.color-menu-3').css("animation", "slide .4s linear");
+      $('.color-menu-2').css("display", "none");
+      $('.color-menu-1').css("display", "none");
     });
 
     $('#head3 .orange').click(function(){
@@ -99,8 +119,6 @@ $(document).ready(function(){
     ctx.clearRect(160, 110, 320, 320);
     ctx.drawImage(img, 160, 110, 320, 320);
   });
-
-
   $('#eye4').click(function(){
     var canvas = document.getElementById("eye");
     var ctx = canvas.getContext("2d");
