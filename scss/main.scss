@@ -41,8 +41,7 @@ nav {
 .customizer {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: space-between;
   background: $color4;
   width: 65%;
   height: auto;
@@ -62,26 +61,27 @@ nav {
   .character-display {
     background: $color2;
     position: relative;
-    & canvas {
+    display: block;
+    height: 600px;
+    width: 450px;
+     canvas {
       position: absolute;
-      z-index: 4
+      border: 2px dashed salmon;
+      height: 600px;
+      width: 450px;
+      #canvas {
+        z-index: 1;
+      }
+      #eye {
+        z-index: 2;
+      }
+      #mouth {
+        z-index: 3;
+      }
+      #nose {
+        z-index: 4;
+      }
     }
-    // & #canvas {
-    //   z-index: 1;
-    //   position: absolute;
-    // }
-    // & #eye {
-    //   z-index: 2;
-    //   position: absolute;
-    // }
-    // & #mouth {
-    //   z-index: 3;
-    //   position: absolute;
-    // }
-    // & #nose {
-    //   z-index: 4;
-    //   position: absolute;
-    // }
   }
 
   .menu {
