@@ -55,44 +55,37 @@
   align-items: center;
   flex-direction: column; }
 
-#main {
-  display: flex;
-  flex-direction: row; }
-
 .menu {
-  border: 1px solid black;
   padding: 15px; }
 
 .species {
-  border: 1px solid black;
-  width: 200px;
   display: flex;
+  align-items: center;
   flex-direction: row; }
-
-svg path {
-  fill: pink; }
+  .species object {
+    float: left; }
+  .species object:hover {
+    fill: #fff; }
 
 .wrapper {
   display: flex;
   align-items: center;
   flex-direction: column; }
 
-#main {
-  display: flex;
-  flex-direction: row; }
-
 .menu {
-  border: 1px solid black;
   padding: 15px; }
 
 .species {
-  border: 1px solid black;
-  width: 200px;
   display: flex;
+  align-items: center;
   flex-direction: row; }
+  .species object {
+    float: left; }
+  .species object:hover {
+    fill: #fff; }
 
-svg path {
-  fill: pink; }
+*, *::after, *::before {
+  box-sizing: border-box; }
 
 body {
   font-family: candy;
@@ -110,10 +103,14 @@ nav {
   margin-left: 50px; }
 
 .customizer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   background: lightyellow;
   width: auto;
   height: auto; }
-  .customizer img {
+  .customizer img, .customizer svg {
     width: 100px;
     height: auto; }
   .customizer .character-picker {

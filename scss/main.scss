@@ -15,7 +15,6 @@ body {
   padding: 0;
 }
 
-
 nav {
   display: flex;
   flex-direction: row;
@@ -29,10 +28,14 @@ nav {
 }
 
 .customizer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   background: $color4;
   width: auto;
   height: auto;
-  img {
+  img, svg {
     width: 100px;
     height: auto;
   }
