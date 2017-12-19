@@ -73,7 +73,8 @@
 
 .species {
   display: inline-flex;
-  justify-content: space-around; }
+  justify-content: space-around;
+  margin-bottom: 30px; }
   .species a {
     display: inline-block;
     position: relative; }
@@ -117,7 +118,8 @@ section#main canvas#canvas {
 
 .species {
   display: inline-flex;
-  justify-content: space-around; }
+  justify-content: space-around;
+  margin-bottom: 30px; }
   .species a {
     display: inline-block;
     position: relative; }
@@ -176,8 +178,7 @@ nav {
 .customizer {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: space-between;
   background: lightyellow;
   width: 65%;
   height: auto; }
@@ -191,7 +192,24 @@ nav {
       width: 100%;
       height: 100px; }
   .customizer .character-display {
-    background: #d3eef7; }
+    background: #d3eef7;
+    position: relative;
+    display: block;
+    height: 600px;
+    width: 450px; }
+    .customizer .character-display canvas {
+      position: absolute;
+      border: 2px dashed salmon;
+      height: 600px;
+      width: 450px; }
+      .customizer .character-display canvas #canvas {
+        z-index: 1; }
+      .customizer .character-display canvas #eye {
+        z-index: 2; }
+      .customizer .character-display canvas #mouth {
+        z-index: 3; }
+      .customizer .character-display canvas #nose {
+        z-index: 4; }
   .customizer .menu {
     border: 2px dashed salmon;
     height: 500px;
