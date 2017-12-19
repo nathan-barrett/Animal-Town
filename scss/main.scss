@@ -41,8 +41,7 @@ nav {
 .customizer {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: space-between;
   background: $color4;
   width: 65%;
   height: auto;
@@ -58,9 +57,33 @@ nav {
       height: 100px;
     }
   }
+
   .character-display {
     background: $color2;
+    position: relative;
+    display: block;
+    height: 600px;
+    width: 450px;
+     canvas {
+      position: absolute;
+      border: 2px dashed salmon;
+      height: 600px;
+      width: 450px;
+      #canvas {
+        z-index: 1;
+      }
+      #eye {
+        z-index: 2;
+      }
+      #mouth {
+        z-index: 3;
+      }
+      #nose {
+        z-index: 4;
+      }
+    }
   }
+
   .menu {
     border: 2px dashed salmon;
     height: 500px;

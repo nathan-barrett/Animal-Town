@@ -2,11 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8" name="viewport" content="width=device-width">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/svg.js/2.6.3/svg.js"></script>
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/scripts.js"></script>
     <link rel="stylesheet" href="css/main.css">
-    <!-- <link rel="stylesheet" href="css/styles.css"> -->
     <title>Animal Town</title>
   </head>
   <body>
@@ -50,9 +48,18 @@
           </div>
         </a>
       </div>
+
       <section id="main" class="customizer">
-        <img src="img/body.svg" id="body" alt="" class="hidden">
-          <canvas id="canvas" width="450" height="600"></canvas>
+        <img src="img/body.svg" id="body" alt="">
+
+        <div class="character-display">
+          <canvas id="canvas" class="body"></canvas>
+          <canvas id="eye"></canvas>
+          <canvas id="mouth"></canvas>
+          <canvas id="nose"></canvas>
+        </div>
+
+
         <div class="menu">
           <div class="eyes">
             <img src="img/eye1.svg" alt="" id="eye1">
@@ -69,6 +76,7 @@
             <img src="img/mouth1.svg" alt=""id="mouth1">
             <img src="img/mouth2.svg" alt="" id="mouth2">
           </div>
+          <button type="button" id="cheese" name="button">Say Cheese!</button>
         </div>
       </section><!--end of menu section -->
 
