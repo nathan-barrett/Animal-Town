@@ -39,9 +39,13 @@
     border: 2px dashed $color1;
     border-radius: 20px;
     margin: 2px 10px;
-    background: lightgray;
+    background: aliceblue;
     height: 120px;
     width: 120px;
+    img {
+      width: 110%;
+      height: auto;
+    }
   }
   .bio {
     border: 2px dashed $color1;
