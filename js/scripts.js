@@ -17,6 +17,14 @@ var eye = function(jimbo){
   ctx.clearRect(160, 110, 320, 320);
   ctx.drawImage(img, 160, 110, 320, 320);
 }
+var shirt = function(tuna){
+  var canvas = document.getElementById('shirt');
+  var ctx = canvas.getContext("2d");
+  var img = new Image();
+  img.src = tuna;
+  ctx.clearRect(160, 110, 320, 320);
+  ctx.drawImage(img, 160, 155, 320, 320);
+}
 
 var nose = function(dad){
   var canvas = document.getElementById('nose');
@@ -308,36 +316,34 @@ $(document).ready(function(){
     mouth('png/mouth7.png');
   });
 
-  $('#mouth-a').click(function(){
-    mouth();
-  });
+  //shirt functions
 
-  $('#mouth-b').click(function(){
-    mouth();
+  $('#shirt1').click(function(){
+    shirt('https://i.imgur.com/IyrpjmT.png');
   });
-
-  $('#mouth-c').click(function(){
-    mouth();
+  $('#shirt2').click(function(){
+    shirt('https://i.imgur.com/vSVdF4R.png');
   });
-
-  $('#mouth-d').click(function(){
-    mouth();
+  $('#shirt3').click(function(){
+    shirt('https://i.imgur.com/7pC71ql.png');
   });
-
-  $('#mouth-e').click(function(){
-    mouth();
+  $('#shirt4').click(function(){
+    shirt('https://i.imgur.com/0a1M8cJ.png');
   });
-
-  $('#mouth-f').click(function(){
-    mouth();
+  $('#shirt5').click(function(){
+    shirt('https://i.imgur.com/k7ZHd4N.png');
   });
-
-  $('#mouth-g').click(function(){
-    mouth();
+  $('#shirt6').click(function(){
+    shirt('https://i.imgur.com/DDZqEHt.png');
   });
-
-  $('#mouth-h').click(function(){
-    mouth();
+  $('#shirt7').click(function(){
+    shirt('https://i.imgur.com/neteIWS.png');
+  });
+  $('#shirt8').click(function(){
+    shirt('https://i.imgur.com/sgKcEyI.png');
+  });
+  $('#shirt9').click(function(){
+    shirt('https://i.imgur.com/cA02aGN.png');
   });
 
 });
