@@ -72,6 +72,22 @@ $(document).ready(function(){
       head('png/bunny-blue.png');
     });
 
+    $('#head1 .pink').click(function(){
+      head();
+    });
+
+    $('#head1 .purple').click(function(){
+      head();
+    });
+
+    $('#head1 .yellow').click(function(){
+      head();
+    });
+
+    $('#head1 .grey').click(function(){
+      head();
+    });
+
     //CAT HEAD
 
     $('#head2').click(function(){
@@ -100,6 +116,22 @@ $(document).ready(function(){
       head('png/cat-blue.png');
     });
 
+    $('#head2 .pink').click(function(){
+      head();
+    });
+
+    $('#head2 .purple').click(function(){
+      head();
+    });
+
+    $('#head2 .yellow').click(function(){
+      head();
+    });
+
+    $('#head2 .grey').click(function(){
+      head();
+    });
+
 
     //DOG HEAD
     $('#head3').click(function(){
@@ -126,6 +158,22 @@ $(document).ready(function(){
 
     $('#head3 .blue').click(function(){
       head('png/dog-blue.png');
+    });
+
+    $('#head3 .pink').click(function(){
+      head();
+    });
+
+    $('#head3 .purple').click(function(){
+      head();
+    });
+
+    $('#head3 .yellow').click(function(){
+      head();
+    });
+
+    $('#head3 .grey').click(function(){
+      head();
     });
 
 
@@ -159,6 +207,30 @@ $(document).ready(function(){
     eye('png/eyes7.png');
   });
 
+  $('#eye-a').click(function(){
+    eye();
+  });
+
+  $('#eye-b').click(function(){
+    eye();
+  });
+
+  $('#eye-c').click(function(){
+    eye();
+  });
+
+  $('#eye-d').click(function(){
+    eye();
+  });
+
+  $('#eye-e').click(function(){
+    eye();
+  });
+
+  $('#eye-f').click(function(){
+    eye();
+  });
+
 //NOSE SELECTION
 
   $('#nose1').click(function(){
@@ -179,6 +251,18 @@ $(document).ready(function(){
 
   $('#nose5').click(function(){
     nose('png/nose5.png');
+  });
+
+  $('#nose-a').click(function(){
+    nose();
+  });
+
+  $('#nose-b').click(function(){
+    nose();
+  });
+
+  $('#nose-c').click(function(){
+    nose();
   });
 
 //MOUTH SELECTION
@@ -209,6 +293,38 @@ $(document).ready(function(){
 
   $('#mouth7').click(function(){
     mouth('png/mouth7.png');
+  });
+
+  $('#mouth-a').click(function(){
+    mouth();
+  });
+
+  $('#mouth-b').click(function(){
+    mouth();
+  });
+
+  $('#mouth-c').click(function(){
+    mouth();
+  });
+
+  $('#mouth-d').click(function(){
+    mouth();
+  });
+
+  $('#mouth-e').click(function(){
+    mouth();
+  });
+
+  $('#mouth-f').click(function(){
+    mouth();
+  });
+
+  $('#mouth-g').click(function(){
+    mouth();
+  });
+
+  $('#mouth-h').click(function(){
+    mouth();
   });
 
 });
