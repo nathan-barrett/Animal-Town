@@ -21,6 +21,7 @@ var shirt = function(tuna){
   var canvas = document.getElementById('shirt');
   var ctx = canvas.getContext("2d");
   var img = new Image();
+  img.crossOrigin="anonymous"
   img.src = tuna;
   ctx.clearRect(160, 110, 320, 320);
   ctx.drawImage(img, 160, 155, 320, 320);
@@ -54,7 +55,7 @@ $(document).ready(function(){
     var body    = canvasbody.toDataURL("image/png");
 
     var canvasshirt = document.getElementById("shirt");
-    var shirt    = canvasmouth.toDataURL("image/png");
+    var shirt    = canvasshirt.toDataURL("image/png");
 
     var canvaseye = document.getElementById("eye");
     var eye    = canvaseye.toDataURL("image/png");
