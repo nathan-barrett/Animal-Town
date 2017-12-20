@@ -12,6 +12,7 @@ var eye = function(jimbo){
   var canvas = document.getElementById('eye');
   var ctx = canvas.getContext("2d");
   var img = new Image();
+  img.crossOrigin="anonymous"
   img.src = jimbo;
   ctx.clearRect(160, 110, 320, 320);
   ctx.drawImage(img, 160, 110, 320, 320);
@@ -21,6 +22,7 @@ var nose = function(dad){
   var canvas = document.getElementById('nose');
   var ctx = canvas.getContext("2d");
   var img = new Image();
+  img.crossOrigin="anonymous"
   img.src = dad;
   ctx.clearRect(160, 120, 320, 320);
   ctx.drawImage(img, 160, 120, 320, 320);
@@ -30,6 +32,7 @@ var mouth = function(grasshopper){
   var canvas = document.getElementById('mouth');
   var ctx = canvas.getContext("2d");
   var img = new Image();
+  img.crossOrigin="anonymous"
   img.src = grasshopper;
   ctx.clearRect(160, 135, 320, 320);
   ctx.drawImage(img, 160, 135, 320, 320);
@@ -41,7 +44,6 @@ $(document).ready(function(){
   $('#capture').click(function(){
     var canvas = document.getElementById("body");
     var img    = canvas.toDataURL("image/png");
-    console.log('img');
     document.write('<img src="'+img+'"/>');
   });
 
@@ -57,19 +59,19 @@ $(document).ready(function(){
     });
 
     $('#head1 .orange').click(function(){
-      head('https://i.imgur.com/yDiXqW3.png');
+      head('https://i.imgur.com/pcrr4xl.png');
     });
 
     $('#head1 .red').click(function(){
-      head('png/bunny-red.png');
+      head('https://i.imgur.com/JOg96R0.png');
     });
 
     $('#head1 .green').click(function(){
-      head('png/bunny-green.png');
+      head('https://i.imgur.com/mVAc5te.png');
     });
 
     $('#head1 .blue').click(function(){
-      head('png/bunny-blue.png');
+      head('https://i.imgur.com/0mtSDF7.png');
     });
 
     //CAT HEAD
@@ -85,19 +87,19 @@ $(document).ready(function(){
     });
 
     $('#head2 .orange').click(function(){
-      head('png/cat-yellow.png');
+      head('https://i.imgur.com/kIAae41.png');
     });
 
     $('#head2 .red').click(function(){
-      head('png/cat-red.png');
+      head('https://i.imgur.com/qfZerjP.png');
     });
 
     $('#head2 .green').click(function(){
-      head('png/cat-green.png');
+      head('https://i.imgur.com/3BT4fXf.png');
     });
 
     $('#head2 .blue').click(function(){
-      head('png/cat-blue.png');
+      head('https://i.imgur.com/7C5vOsi.png');
     });
 
 
@@ -113,19 +115,19 @@ $(document).ready(function(){
     });
 
     $('#head3 .orange').click(function(){
-      head('png/dog-yellow.png');
+      head('https://i.imgur.com/0IfiGrL.png');
     });
 
     $('#head3 .red').click(function(){
-      head('png/dog-red.png');
+      head('https://i.imgur.com/Eti9vul.png');
     });
 
     $('#head3 .green').click(function(){
-      head('png/dog-green.png');
+      head('https://i.imgur.com/Xt4GVGN.png');
     });
 
     $('#head3 .blue').click(function(){
-      head('png/dog-blue.png');
+      head('https://i.imgur.com/YRrf8R3.png');
     });
 
 
