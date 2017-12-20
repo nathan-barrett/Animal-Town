@@ -64,7 +64,7 @@ $(document).ready(function(){
     var body    = canvasbody.toDataURL("image/png");
 
     var canvasshirt = document.getElementById("shirt");
-    var shirt    = canvasmouth.toDataURL("image/png");
+    var shirt    = canvasshirt.toDataURL("image/png");
 
     var canvaseye = document.getElementById("eye");
     var eye    = canvaseye.toDataURL("image/png");
