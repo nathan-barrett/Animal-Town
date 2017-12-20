@@ -7,7 +7,15 @@
   align-items: center;
   flex-direction: column;
   width: 100%;
-  transition: all 1s ease-out;
+  transition: all 1s ease-in;
+}
+
+.scene, .character {
+  transition: all 1s ease-in;
+}
+
+.scene {
+  transform: translateY(-100%);
 }
 
 .menu {

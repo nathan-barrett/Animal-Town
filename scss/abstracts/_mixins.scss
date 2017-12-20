@@ -1,3 +1,7 @@
-.hidden {
-  transform: translateX(-100%)
+.slide {
+  transform: translateX(-200%);
+}
+
+.show {
+  transform: translateY(-80%);
 }
