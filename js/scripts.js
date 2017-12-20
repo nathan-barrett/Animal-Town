@@ -2,6 +2,7 @@ var head = function(cheese){
   var canvas = document.getElementById('body');
   var ctx = canvas.getContext("2d");
   var img = new Image();
+  img.crossOrigin="anonymous"
   img.src = cheese;
   ctx.clearRect(120, 100, 400, 400);
   ctx.drawImage(img, 120, 100, 400, 400);
@@ -37,6 +38,13 @@ var mouth = function(grasshopper){
 
 $(document).ready(function(){
 
+  $('#capture').click(function(){
+    var canvas = document.getElementById("body");
+    var img    = canvas.toDataURL("image/png");
+    console.log('img');
+    document.write('<img src="'+img+'"/>');
+  });
+
   //HEAD SELECTION
     $('#head1').click(function(){
       $('#head1 img').css('background', 'rgba(209, 66, 41, .3)');
@@ -50,7 +58,6 @@ $(document).ready(function(){
 
     $('#head1 .orange').click(function(){
       head('https://i.imgur.com/yDiXqW3.png');
-
     });
 
     $('#head1 .red').click(function(){
