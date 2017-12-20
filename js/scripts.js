@@ -49,8 +49,7 @@ $(document).ready(function(){
     });
 
     $('#head1 .orange').click(function(){
-
-      head('png/bunny-yellow.png');
+      head('https://nathan-barrett.github.io/animal-town/png/bunny-yellow.png');
 
     });
 
