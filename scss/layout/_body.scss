@@ -1,6 +1,3 @@
-.hidden {
-  display: none;
-}
 
 .wrapper {
   display: flex;
@@ -141,6 +138,16 @@
       }
     }
   }
+}
+
+#capture {
+  height: 80px;
+  width: 130px;
+  z-index: 20;
+  align-self: flex-end;
+  margin-left: 30px;
+  margin-right: 30px;
+  
 }
 
 

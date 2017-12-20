@@ -20,12 +20,13 @@
 }
 
 .teammate {
-  border: 2px dashed $color1;
-  border-radius: 20px;
+  border: 15px solid transparent;
+  border-radius: 15px;
+  border-image: url("../png/border.png") 25% repeat;
   position: relative;
   background: $color4;
   width: 60vw;
-  height: 200px;
+  height: 300px;
   margin: 15px;
   padding: 14px;
   display: flex;
@@ -75,7 +76,7 @@
 }
 .apple {
   list-style-image: url('../img/apple.png');
-  margin-top: 10px;
+  margin-top: 5px;
 }
 .peach {
   list-style-image: url('../img/peach.png');
