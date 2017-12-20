@@ -107,5 +107,8 @@ nav {
   }
   .dynastid {
     transform: rotate(-33.2deg);
+    &:hover {
+      animation: dynastid .5s infinite;
+    }
   }
 }

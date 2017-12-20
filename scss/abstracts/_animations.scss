@@ -9,13 +9,27 @@
 }
 
 @keyframes dynastid {
-  0% {
-
+    0% {
+      transform: rotate(-33.2deg);
+      animation-timing-function: ease-in;
+    }
+    30% {
+      transform: rotate(-38deg);
+      animation-timing-function: ease-out;
+    }
+    50% {
+      transform: rotate(-42deg);
+      animation-timing-function: ease-out;
+    }
+    80% {
+      transform: rotate(-38deg);
+      animation-timing-function: ease-out;
+    }
+    100% {
+      transform: rotate(-33.2deg);
+      animation-timing-function: ease-out;
+    }
   }
-  100% {
-
-  }
-}
 
 @keyframes slide {
   0% { top: -100%; }
