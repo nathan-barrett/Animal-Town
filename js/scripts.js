@@ -47,10 +47,19 @@ $(document).ready(function(){
 
     var canvaseye = document.getElementById("eye");
     var eye    = canvaseye.toDataURL("image/png");
+
+    var canvasnose = document.getElementById("nose");
+    var nose    = canvasnose.toDataURL("image/png");
+
+    var canvasmouth = document.getElementById("mouth");
+    var mouth    = canvasmouth.toDataURL("image/png");
+
     $('.wrapper').addClass('slide');
     $('.scene').addClass('show');
     $('.character').append('<img src="'+body+'"/>');
     $('.character').append('<img src="'+eye+'"/>');
+    $('.character').append('<img src="'+nose+'"/>');
+    $('.character').append('<img src="'+mouth+'"/>');
   });
 
   //HEAD SELECTION
