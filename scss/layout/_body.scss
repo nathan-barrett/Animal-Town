@@ -35,7 +35,7 @@
     [class*='color-menu-'] {
       position: absolute;
       top: 90%;
-      left: -30%;
+      left: -107%;
       min-width: 100px;
       display: none;
       margin-right: 25px;
@@ -70,9 +70,34 @@
           transform: scale(1.5);
         }
       }
+      .grey {
+        background: grey;
+        &:hover {
+          transform: scale(1.5);
+        }
+      }
+      .purple {
+        background: purple;
+        &:hover {
+          transform: scale(1.5);
+        }
+      }
+      .pink {
+        background: pink;
+        &:hover {
+          transform: scale(1.5);
+        }
+      }
+      .yellow {
+        background: yellow;
+        &:hover {
+          transform: scale(1.5);
+        }
+      }
     }
   }
 }
+
 
 section#main {
   canvas {
