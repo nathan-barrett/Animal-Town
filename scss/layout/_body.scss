@@ -1,64 +1,5 @@
 
-.wrapper {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  width: 100%;
-  transition: all 1s ease-in;
-}
-
-.scene, .character {
-  transition: all 1s ease-in;
-}
-
-
-.scene {
-  width: 100vw;
-  position: relative;
-  height: 40vh;
-}
-
-.character {
-  position: relative;
-
-  img:nth-child(1){
-    z-index: 1;
-  }
-  img:nth-child(2){
-    z-index: 2;
-    position: absolute;
-    left: 0;
-  }
-  img:nth-child(3){
-    z-index: 3;
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
-  img:nth-child(4){
-    z-index: 4;
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
-  img:nth-child(5){
-    z-index: 5;
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
-}
-
-
-.menu {
-  padding: 15px;
-}
-
-.eyes, .nose, .mouth, .shirts{
-  img:hover{
-    cursor: pointer;
-  }
-}
+//Top Color and Species Selectors
 
 .species {
   display: inline-flex;
@@ -146,6 +87,111 @@
   }
 }
 
+//Canvas and Display styles
+
+
+.customizer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 65%;
+  height: auto;
+  margin-top: 50px;
+  border-radius: 25px;
+  img, svg {
+    height: auto;
+  }
+
+  .character-display {
+    position: relative;
+    display: block;
+    height: 600px;
+    width: 650px;
+    background: $color4;
+    border: 25px solid transparent;
+    border-radius: 20px;
+    border-image: url("../png/border.png") 25% repeat;
+     canvas {
+      position: absolute;
+      #canvas {
+        z-index: 1;
+      }
+      #eye {
+        z-index: 2;
+      }
+      #mouth {
+        z-index: 3;
+      }
+      #nose {
+        z-index: 4;
+      }
+    }
+  }
+
+  section#main {
+    canvas {
+      background-color: transparent;
+    }
+  }
+
+  //Custom Selections (eyes, mouth, noses, shirt)
+  .menu {
+    border: 2px dashed salmon;
+    width: 35%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: $color4;
+    border-radius: 25px;
+    border: 20px solid transparent;
+    border-image: url("../png/border.png") 25% repeat;
+    .tab-menu {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      label {
+        background: green;
+        border: 1px solid #ddd;
+        color: white;
+        padding: .7em 1em;
+        cursor: pointer;
+        z-index: 1;
+        margin-left: -1px;
+        &:first-of-type {
+          margin-left: 0;
+        }
+      }
+      .eyes, .nose, .mouth, .shirts {
+        width: 100%;
+        margin-top: -1px;
+        padding-left: 5px;
+        order: 1;
+        img {
+          width: 150px;
+          padding: 30px;
+        }
+      }
+    }
+  }
+}
+input[type=radio], .eyes, .nose, .mouth, .shirts{
+  display: none;
+}
+input[type=radio]:checked + label {
+  background: #fff;
+  border-bottom: 1px solid #fff;
+}
+input[type=radio]:checked + label + div {
+  display: inline-flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 203px;
+}
+
+
 #capture {
   height: 80px;
   width: 130px;
@@ -156,9 +202,45 @@
 
 }
 
+//Character Display Stuff
 
-section#main {
-  canvas {
-    background-color: transparent;
+.scene, .character {
+  transition: all 1s ease-in;
+}
+
+.scene {
+  width: 100vw;
+  position: relative;
+  height: 40vh;
+}
+
+.character {
+  position: relative;
+
+  img:nth-child(1){
+    z-index: 1;
+  }
+  img:nth-child(2){
+    z-index: 2;
+    position: absolute;
+    left: 0;
+  }
+  img:nth-child(3){
+    z-index: 3;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  img:nth-child(4){
+    z-index: 4;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  img:nth-child(5){
+    z-index: 5;
+    position: absolute;
+    top: 0;
+    left: 0;
   }
 }

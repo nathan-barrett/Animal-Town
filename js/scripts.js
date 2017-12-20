@@ -31,6 +31,7 @@ var shirt = function(tuna){
   var canvas = document.getElementById('shirt');
   var ctx = canvas.getContext("2d");
   var img = new Image();
+  img.crossOrigin="anonymous"
   img.src = tuna;
   ctx.clearRect(160, 110, 320, 320);
   ctx.drawImage(img, 160, 155, 320, 320);
