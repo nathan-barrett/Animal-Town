@@ -1,0 +1,36 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: honey;
+  font-size: 1.2em;
+  margin: 0;
+  padding: 0;
+  background-image: url(../png/animalcrossingbackground.png);
+  background-repeat: repeat-x;
+  animation: backgroundScroll 37000s linear infinite;
+  background-size: cover;
+  overflow: hidden;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: $color1;
+  &:hover {
+    color: $color4;
+  }
+}
+
+audio {
+  display: none;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  transition: all 1s ease-in;
+}
