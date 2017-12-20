@@ -3,7 +3,8 @@
       "base/modules",
       "components/modules",
       "layout/modules",
-      "layout/body";
+      "layout/body",
+      "abstracts/mixins";
 
 *, *::after, *::before {
   box-sizing: border-box;
@@ -20,6 +21,7 @@ body {
   background-size: cover;
   overflow: hidden;
   background-color: #d4f7d4;
+  height: 80vh;
 }
 
 a {
