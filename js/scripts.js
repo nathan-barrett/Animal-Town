@@ -45,6 +45,9 @@ $(document).ready(function(){
     var canvasbody = document.getElementById("body");
     var body    = canvasbody.toDataURL("image/png");
 
+    var canvasshirt = document.getElementById("shirt");
+    var shirt    = canvasmouth.toDataURL("image/png");
+
     var canvaseye = document.getElementById("eye");
     var eye    = canvaseye.toDataURL("image/png");
 
@@ -57,6 +60,7 @@ $(document).ready(function(){
     $('.wrapper').addClass('slide');
     $('.scene').addClass('show');
     $('.character').append('<img src="'+body+'"/>');
+    $('.character').append('<img src="'+shirt+'"/>');
     $('.character').append('<img src="'+eye+'"/>');
     $('.character').append('<img src="'+nose+'"/>');
     $('.character').append('<img src="'+mouth+'"/>');
