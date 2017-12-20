@@ -59,11 +59,10 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background: $color4;
   width: 65%;
   height: auto;
-  margin-bottom: 300px;
   margin-top: 50px;
+  border-radius: 25px;
   img, svg {
     // max-width: 25px;
     height: auto;
@@ -82,9 +81,12 @@ nav {
     display: block;
     height: 600px;
     width: 650px;
+    background: $color4;
+    border: 25px solid transparent;
+    border-radius: 20px;
+    border-image: url("../png/border.png") 25% repeat;
      canvas {
       position: absolute;
-      border: 2px dashed salmon;
       #canvas {
         z-index: 1;
       }
@@ -106,6 +108,10 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: $color4;
+    border-radius: 25px;
+    border: 20px solid transparent;
+    border-image: url("../png/border.png") 25% repeat;
     .tab-menu {
       display: flex;
       flex-wrap: wrap;
