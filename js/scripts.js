@@ -57,7 +57,7 @@ $(document).ready(function(){
       $('.color-menu-2').css("display", "none");
       $('.color-menu-3').css("display", "none");
     });
-
+    //HEAD ONE RABBIT
     $('#head1 .orange').click(function(){
       head('https://i.imgur.com/pcrr4xl.png');
     });
@@ -75,19 +75,19 @@ $(document).ready(function(){
     });
 
     $('#head1 .pink').click(function(){
-      head();
+      head('https://i.imgur.com/EXv7oT3.png');
     });
 
     $('#head1 .purple').click(function(){
-      head();
+      head('https://i.imgur.com/qYAuw9z.png');
     });
 
     $('#head1 .yellow').click(function(){
-      head();
+      head('https://i.imgur.com/pcrr4xl.png');
     });
 
     $('#head1 .grey').click(function(){
-      head();
+      head('https://i.imgur.com/dU2Hjpn.png');
     });
 
     //CAT HEAD
@@ -119,19 +119,19 @@ $(document).ready(function(){
     });
 
     $('#head2 .pink').click(function(){
-      head();
+      head('https://i.imgur.com/Kh1FoTt.png');
     });
 
     $('#head2 .purple').click(function(){
-      head();
+      head('https://i.imgur.com/CmlSywm.png');
     });
 
     $('#head2 .yellow').click(function(){
-      head();
+      head('https://i.imgur.com/kIAae41.png');
     });
 
     $('#head2 .grey').click(function(){
-      head();
+      head('https://i.imgur.com/RrbHcEq.png');
     });
 
 
@@ -163,19 +163,19 @@ $(document).ready(function(){
     });
 
     $('#head3 .pink').click(function(){
-      head();
+      head('https://i.imgur.com/3X1FhRi.png');
     });
 
     $('#head3 .purple').click(function(){
-      head();
+      head('https://i.imgur.com/Vf7B4QG.png');
     });
 
     $('#head3 .yellow').click(function(){
-      head();
+      head('https://i.imgur.com/0IfiGrL.png');
     });
 
     $('#head3 .grey').click(function(){
-      head();
+      head('https://i.imgur.com/l3P7lZs.png');
     });
 
 
