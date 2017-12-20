@@ -19,7 +19,7 @@ body {
   background-repeat: repeat-x;
   animation: backgroundScroll 37000s linear infinite;
   background-size: cover;
-  overflow: hidden;
+  // overflow: hidden;
   height: 100vh;
 }
 
@@ -121,6 +121,10 @@ nav {
         border: 1px solid #ddd;
         color: white;
         padding: .7em 1em;
+        width: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         cursor: pointer;
         z-index: 1;
         margin-left: -1px;
@@ -134,7 +138,7 @@ nav {
         padding-left: 5px;
         order: 1;
         img {
-          width: 150px;
+          width: 30%;
           padding: 30px;
         }
       }
@@ -155,6 +159,9 @@ input[type=radio]:checked + label + div {
   justify-content: space-between;
   flex-wrap: wrap;
   height: 203px;
+}
+#eye-icon, #nose-icon, #mouth-icon, #shirt-icon {
+  width: 100%;
 }
 
 .dynastid-link {
