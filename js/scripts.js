@@ -60,6 +60,8 @@ var mouth = function(grasshopper){
 
 $(document).ready(function(){
 
+  $('.btn-container').hide();
+
   $('#capture').click(function(){
     var canvasbody = document.getElementById("body");
     var body    = canvasbody.toDataURL("image/png");
@@ -83,7 +85,15 @@ $(document).ready(function(){
     $('.character').append('<img src="'+eye+'"/>');
     $('.character').append('<img src="'+nose+'"/>');
     $('.character').append('<img src="'+mouth+'"/>');
+    $('.btn-container').addClass('btn-show');
+    $('.btn-container').show();
+
+    $('#play-again').click(function () {
+      location.reload();
+    });
   });
+
+
 
   //HEAD SELECTION
     $('#head1').click(function(){
