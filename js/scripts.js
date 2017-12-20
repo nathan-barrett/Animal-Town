@@ -184,111 +184,107 @@ $(document).ready(function(){
 //EYE SELECTION
 
   $('#eye1').click(function(){
-    eye('png/eyes1.png');
+    eye('https://i.imgur.com/gszkwue.png');
   });
 
   $('#eye2').click(function(){
-    eye('png/eyes2.png');
+    eye('https://i.imgur.com/cFlNEyS.png');
   });
 
   $('#eye3').click(function(){
-    eye('png/eyes3.png');
+    eye('https://i.imgur.com/zEjCYTn.png');
   });
 
   $('#eye4').click(function(){
-    eye('png/eyes4.png');
+    eye('https://i.imgur.com/uUbDcXr.png');
   });
 
   $('#eye5').click(function(){
-    eye('png/eyes5.png');
+    eye('https://i.imgur.com/pEVJzNY.png');
   });
 
   $('#eye6').click(function(){
-    eye('png/eyes6.png');
+    eye('https://i.imgur.com/sRmyNlo.png');
   });
 
   $('#eye7').click(function(){
-    eye('png/eyes7.png');
+    eye('https://i.imgur.com/13BN3Rn.png');
   });
 
-  $('#eye-a').click(function(){
-    eye();
+  $('#eye8').click(function(){
+    eye('https://i.imgur.com/Pb1Vb6u.png');
   });
 
-  $('#eye-b').click(function(){
-    eye();
+  $('#eye9').click(function(){
+    eye('https://i.imgur.com/0zKFFVo.png');
   });
 
-  $('#eye-c').click(function(){
-    eye();
+  $('#eye10').click(function(){
+    eye('https://i.imgur.com/FfFHDes.png');
   });
 
-  $('#eye-d').click(function(){
-    eye();
+  $('#eye11').click(function(){
+    eye('https://i.imgur.com/fV8BbW3.png');
   });
 
-  $('#eye-e').click(function(){
-    eye();
-  });
-
-  $('#eye-f').click(function(){
-    eye();
+  $('#eye12').click(function(){
+    eye('https://i.imgur.com/3FWMTdu.png');
   });
 
 //NOSE SELECTION
 
   $('#nose1').click(function(){
-    nose('png/nose1.png');
+    nose('https://i.imgur.com/a1lx2d5.png');
   });
 
   $('#nose2').click(function(){
-    nose('png/nose2.png');
+    nose('https://i.imgur.com/b1FeHX5.png');
   });
 
   $('#nose3').click(function(){
-    nose('png/nose2.png');
+    nose('https://i.imgur.com/m61kux4.png');
   });
 
   $('#nose4').click(function(){
-    nose('png/nose4.png');
+    nose('https://i.imgur.com/yzXyGdw.png');
   });
 
   $('#nose5').click(function(){
-    nose('png/nose5.png');
+    nose('https://i.imgur.com/ssINeX1.png');
   });
 
   $('#nose-a').click(function(){
-    nose();
+    nose('https://i.imgur.com/jYmTNjN.png');
   });
 
   $('#nose-b').click(function(){
-    nose();
+    nose('https://i.imgur.com/w3QA7pK.png');
   });
 
   $('#nose-c').click(function(){
-    nose();
+    nose('https://i.imgur.com/bjHajTm.png');
   });
 
 //MOUTH SELECTION
 
   $('#mouth1').click(function(){
-    mouth('png/mouth1.png');
+    mouth('https://i.imgur.com/okyLRrW.png');
   });
 
   $('#mouth2').click(function(){
-    mouth('png/mouth2.png');
+    mouth('https://i.imgur.com/vjcyaRc.png');
   });
 
   $('#mouth3').click(function(){
-    mouth('png/mouth3.png');
+    mouth('https://i.imgur.com/ntF1nc5.png');
   });
 
   $('#mouth4').click(function(){
-    mouth('png/mouth4.png');
+    mouth('https://i.imgur.com/RqgYTTj.png');
   });
 
   $('#mouth5').click(function(){
-    mouth('png/mouth5.png');
+    mouth('https://i.imgur.com/I5KSrBF.png');
   });
 
   $('#mouth6').click(function(){

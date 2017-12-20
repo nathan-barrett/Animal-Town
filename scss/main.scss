@@ -64,7 +64,7 @@ nav {
   margin-bottom: 300px;
   margin-top: 50px;
   img, svg {
-    max-width: 25px;
+    // max-width: 25px;
     height: auto;
   }
   .character-picker {
@@ -121,16 +121,20 @@ nav {
           margin-left: 0;
         }
       }
-      .eyes, .nose, .mouth {
+      .eyes, .nose, .mouth, .shirts {
         width: 100%;
         margin-top: -1px;
         padding-left: 5px;
         order: 1;
+        img {
+          width: 150px;
+          padding: 30px;
+        }
       }
     }
   }
 }
-input[type=radio], .eyes, .nose, .mouth{
+input[type=radio], .eyes, .nose, .mouth, .shirts{
   display: none;
 }
 input[type=radio]:checked + label {
@@ -138,7 +142,12 @@ input[type=radio]:checked + label {
   border-bottom: 1px solid #fff;
 }
 input[type=radio]:checked + label + div {
-  display: block;
+  display: inline-flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 203px;
 }
 
 .dynastid-link {
