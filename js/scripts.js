@@ -43,9 +43,10 @@ $(document).ready(function(){
 
   $('#capture').click(function(){
     var canvas = document.getElementById("body");
-    var img    = canvas.toDataURL("image/png");
-    $('.wrapper').addClass('hidden');
-    // document.write('<img src="'+img+'"/>');
+    var body    = canvas.toDataURL("image/png");
+    $('.wrapper').addClass('slide');
+    $('.scene').addClass('show');
+    $('.character').append('<img src="'+body+'"/>');
   });
 
   //HEAD SELECTION
