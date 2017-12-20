@@ -18,7 +18,7 @@
   display: inline-flex;
   justify-content: space-around;
   margin-bottom: 30px;
-  margin-top: 30px;
+  margin-top: 100px;
   width: 60%;
   a {
     display: inline-block;
@@ -40,6 +40,7 @@
       min-width: 100px;
       display: none;
       margin-right: 25px;
+      margin-top: 20px;
       justify-content: space-around;
       * {
         border-radius: 50%;

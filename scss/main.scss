@@ -20,8 +20,6 @@ body {
   animation: backgroundScroll 37000s linear infinite;
   background-size: cover;
   overflow: hidden;
-  background-color: #d4f7d4;
-  height: 80vh;
 }
 
 a {
@@ -63,6 +61,8 @@ nav {
   background: $color4;
   width: 65%;
   height: auto;
+  margin-bottom: 300px;
+  margin-top: 50px;
   img, svg {
     max-width: 25px;
     height: auto;
