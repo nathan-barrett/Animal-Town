@@ -42,11 +42,24 @@ var mouth = function(grasshopper){
 $(document).ready(function(){
 
   $('#capture').click(function(){
-    var canvas = document.getElementById("body");
-    var body    = canvas.toDataURL("image/png");
+    var canvasbody = document.getElementById("body");
+    var body    = canvasbody.toDataURL("image/png");
+
+    var canvaseye = document.getElementById("eye");
+    var eye    = canvaseye.toDataURL("image/png");
+
+    var canvasnose = document.getElementById("nose");
+    var nose    = canvasnose.toDataURL("image/png");
+
+    var canvasmouth = document.getElementById("mouth");
+    var mouth    = canvasmouth.toDataURL("image/png");
+
     $('.wrapper').addClass('slide');
     $('.scene').addClass('show');
     $('.character').append('<img src="'+body+'"/>');
+    $('.character').append('<img src="'+eye+'"/>');
+    $('.character').append('<img src="'+nose+'"/>');
+    $('.character').append('<img src="'+mouth+'"/>');
   });
 
   //HEAD SELECTION
