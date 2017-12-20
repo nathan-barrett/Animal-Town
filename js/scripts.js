@@ -44,7 +44,8 @@ $(document).ready(function(){
   $('#capture').click(function(){
     var canvas = document.getElementById("body");
     var img    = canvas.toDataURL("image/png");
-    document.write('<img src="'+img+'"/>');
+    $('.wrapper').addClass('hidden');
+    // document.write('<img src="'+img+'"/>');
   });
 
   //HEAD SELECTION
@@ -59,7 +60,7 @@ $(document).ready(function(){
     });
     //HEAD ONE RABBIT
     $('#head1 .orange').click(function(){
-      head('https://i.imgur.com/pcrr4xl.png');
+      head('https://i.imgur.com/3rpEnVF.png');
     });
 
     $('#head1 .red').click(function(){
@@ -103,7 +104,7 @@ $(document).ready(function(){
     });
 
     $('#head2 .orange').click(function(){
-      head('https://i.imgur.com/kIAae41.png');
+      head('https://i.imgur.com/RsffoFT.png');
     });
 
     $('#head2 .red').click(function(){
@@ -147,7 +148,7 @@ $(document).ready(function(){
     });
 
     $('#head3 .orange').click(function(){
-      head('https://i.imgur.com/0IfiGrL.png');
+      head('https://i.imgur.com/dblAKq4.png');
     });
 
     $('#head3 .red').click(function(){
