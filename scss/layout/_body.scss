@@ -15,6 +15,25 @@
 }
 
 .scene {
+  position: relative;
+}
+
+.character {
+  img:nth-child(1){
+    z-index: 1;
+  }
+  img:nth-child(2){
+    z-index: 2;
+  }
+  img:nth-child(3){
+    z-index: 3;
+  }
+  img:nth-child(4){
+    z-index: 4;
+  }
+}
+
+.scene {
   transform: translateY(-100%);
 }
 
