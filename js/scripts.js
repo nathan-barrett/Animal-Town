@@ -8,6 +8,16 @@ var head = function(cheese){
   ctx.drawImage(img, 120, 100, 400, 400);
 }
 
+var shirt = function(grasshopper){
+  var canvas = document.getElementById('shirt');
+  var ctx = canvas.getContext("2d");
+  var img = new Image();
+  img.crossOrigin="anonymous"
+  img.src = grasshopper;
+  ctx.clearRect(160, 135, 320, 320);
+  ctx.drawImage(img, 160, 135, 320, 320);
+}
+
 var eye = function(jimbo){
   var canvas = document.getElementById('eye');
   var ctx = canvas.getContext("2d");
