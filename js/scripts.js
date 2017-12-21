@@ -8,6 +8,16 @@ var head = function(cheese){
   ctx.drawImage(img, 120, 100, 400, 400);
 }
 
+var shirt = function(grasshopper){
+  var canvas = document.getElementById('shirt');
+  var ctx = canvas.getContext("2d");
+  var img = new Image();
+  img.crossOrigin="anonymous"
+  img.src = grasshopper;
+  ctx.clearRect(160, 135, 320, 320);
+  ctx.drawImage(img, 160, 135, 320, 320);
+}
+
 var eye = function(jimbo){
   var canvas = document.getElementById('eye');
   var ctx = canvas.getContext("2d");
@@ -50,6 +60,8 @@ var mouth = function(grasshopper){
 
 $(document).ready(function(){
 
+  $('.btn-container').hide();
+
   $('#capture').click(function(){
     var canvasbody = document.getElementById("body");
     var body    = canvasbody.toDataURL("image/png");
@@ -73,7 +85,15 @@ $(document).ready(function(){
     $('.character').append('<img src="'+eye+'"/>');
     $('.character').append('<img src="'+nose+'"/>');
     $('.character').append('<img src="'+mouth+'"/>');
+    $('.btn-container').addClass('btn-show');
+    $('.btn-container').show();
+
+    $('#play-again').click(function () {
+      location.reload();
+    });
   });
+
+
 
   //HEAD SELECTION
     $('#head1').click(function(){
