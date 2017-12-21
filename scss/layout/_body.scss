@@ -90,6 +90,20 @@
     }
   }
 }
+// SVG styles
+svg {
+  font-size: 4em;
+  margin-bottom: -130px;
+  path {
+    fill: none;
+  }
+  text textPath {
+    fill: orange;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px black;
+    letter-spacing: 8px;
+  }
+}
 
 //Canvas and Display styles
 
