@@ -11,33 +11,70 @@
     <title>Animal Town</title>
   </head>
   <body>
-    <div class="container"> <!--DONT DELETE PLS -->
     <!-- <div class="opening">
       <img src="png/logo.png" alt="">
     </div> -->
-      <nav id="nav">
-        <div class="logo">
-          <img src="png/logo.png" alt="">
+    <nav id="nav">
+      <div class="logo">
+        <img src="png/logo.png" alt="">
+      </div>
+      <div class="dynastid-link">
+        <a href="about.html">
+          <img class= "dynastid" src="img/dynastid.png" alt="">
+        </a>
+      </div>
+    </nav><!--end of nav -->
+    <div class="wrapper">
+      <div class="species">
+        <a href="#" id="head1">
+          <img src="img/rabbit-button.svg" alt="">
+          <div class="color-menu-1">
+            <div class="orange"></div>
+            <div class="red"></div>
+            <div class="green"></div>
+            <div class="blue"></div>
+            <div class="yellow"></div>
+            <div class="pink"></div>
+            <div class="grey"></div>
+            <div class="purple"></div>
+          </div>
+        </a>
+        <a href="#" id="head2">
+          <img src="img/cat-button.svg" alt="">
+          <div class="color-menu-2">
+            <div class="orange"></div>
+            <div class="red"></div>
+            <div class="green"></div>
+            <div class="blue"></div>
+            <div class="yellow"></div>
+            <div class="pink"></div>
+            <div class="grey"></div>
+            <div class="purple"></div>
+          </div>
+        </a>
+        <a href="#" id="head3">
+          <img src="img/dog-button.svg" alt="">
+          <div class="color-menu-3">
+            <div class="orange"></div>
+            <div class="red"></div>
+            <div class="green"></div>
+            <div class="blue"></div>
+            <div class="yellow"></div>
+            <div class="pink"></div>
+            <div class="grey"></div>
+            <div class="purple"></div>
+          </div>
+        </a>
+      </div>
+
+      <section id="main" class="customizer">
+        <div class="character-display">
+          <canvas id="body" width="650" height="600"></canvas>
+          <canvas id="shirt" width="650" height="600"></canvas>
+          <canvas id="eye" width="650" height="600"></canvas>
+          <canvas id="mouth" width="650" height="600"></canvas>
+          <canvas id="nose" width="650" height="600"></canvas>
         </div>
-        <div class="dynastid-link">
-          <a href="about.html">
-            <img class= "dynastid" src="img/dynastid.png" alt="">
-          </a>
-        </div>
-      </nav><!--end of nav -->
-      <div class="wrapper">
-        <div class="species">
-          <a href="#" id="head1">
-            <img src="img/rabbit-button.svg" alt="">
-            <div class="color-menu-1">
-              <div class="orange"></div>
-              <div class="red"></div>
-              <div class="green"></div>
-              <div class="blue"></div>
-              <div class="yellow"></div>
-              <div class="pink"></div>
-              <div class="grey"></div>
-              <div class="purple"></div>
 
         <div class="say-cheese">
           <p>SAY CHEESE!
@@ -91,115 +128,43 @@
               <img src="https://i.imgur.com/pEKN8aT.png" alt="" id="nose-b">
               <img src="https://i.imgur.com/jfcRJqF.png" alt="" id="nose-c">
             </div>
-          </a>
-          <a href="#" id="head2">
-            <img src="img/cat-button.svg" alt="">
-            <div class="color-menu-2">
-              <div class="orange"></div>
-              <div class="red"></div>
-              <div class="green"></div>
-              <div class="blue"></div>
-              <div class="yellow"></div>
-              <div class="pink"></div>
-              <div class="grey"></div>
-              <div class="purple"></div>
+            <input id="mouth-tab" accept=""type="radio" name="grp">
+            <label for="mouth-tab"><img src="png/mouth-icon.png" id="mouth-icon" alt=""></label>
+            <div class="mouth">
+              <img src="https://i.imgur.com/aDBq6Xl.png" alt=""id="mouth1">
+              <img src="https://i.imgur.com/VmMEyfI.png" alt="" id="mouth2">
+              <img src="https://i.imgur.com/WDWkmDe.png" alt="" id="mouth3">
+              <img src="https://i.imgur.com/gv1Lgpv.png" alt="" id="mouth4">
+              <img src="https://i.imgur.com/Npmyw5O.png" alt="" id="mouth5">
             </div>
-          </a>
-          <a href="#" id="head3">
-            <img src="img/dog-button.svg" alt="">
-            <div class="color-menu-3">
-              <div class="orange"></div>
-              <div class="red"></div>
-              <div class="green"></div>
-              <div class="blue"></div>
-              <div class="yellow"></div>
-              <div class="pink"></div>
-              <div class="grey"></div>
-              <div class="purple"></div>
+            <input id="shirt-tab" accept=""type="radio" name="grp">
+            <label for="shirt-tab"><img src="png/shirt-icon.png" id="shirt-icon" alt=""></label>
+            <div class="shirts">
+              <img src="https://i.imgur.com/ICwDAhL.png" alt=""id="shirt1">
+              <img src="https://i.imgur.com/Tjnjq5f.png" alt=""id="shirt2">
+              <!-- <img src="https://i.imgur.com/5YjXhoh.png" alt=""id="shirt3"> -->
+              <img src="https://i.imgur.com/0JOJCwA.png" alt=""id="shirt4">
+              <img src="https://i.imgur.com/FMrdWXN.png" alt=""id="shirt5">
+              <img src="https://i.imgur.com/3BgwHdf.png" alt=""id="shirt6">
+              <img src="https://i.imgur.com/BPlywcx.png" alt=""id="shirt7">
+              <img src="https://i.imgur.com/8QeU4Qg.png" alt=""id="shirt8">
+              <img src="https://i.imgur.com/GgFbdyK.png" alt=""id="shirt9">
+              <img src="https://i.imgur.com/vK324rj.png" alt=""id="shirt10">
+              <!-- <img src="https://i.imgur.com/GgFbdyK.png" alt=""id="shirt11"> -->
             </div>
-          </a>
+          </div> <!-- end of tab menu -->
         </div>
+      </section><!--end of menu section -->
+      <!-- <button type="button" name="button" id="capture">Say Cheese!</button> -->
+      <section id="footer">
 
-        <section id="main" class="customizer">
-          <div class="character-display">
-            <canvas id="body" width="650" height="600"></canvas>
-            <canvas id="shirt" width="650" height="600"></canvas>
-            <canvas id="eye" width="650" height="600"></canvas>
-            <canvas id="mouth" width="650" height="600"></canvas>
-            <canvas id="nose" width="650" height="600"></canvas>
-          </div>
-
-          <img src="png/cheese-btn.png" alt="say cheese" id="capture">
-
-
-          <div class="menu">
-            <div class="tab-menu">
-              <input id="eye-tab" accept=""type="radio" name="grp" checked="checked">
-              <label for="eye-tab"><img src="png/eye-icon.png" id="eye-icon" alt=""></label>
-              <div class="eyes">
-                <img src="https://i.imgur.com/jt2KX6s.png" alt="" id="eye1">
-                <img src="https://i.imgur.com/9o4W93x.png" alt="" id="eye2">
-                <img src="https://i.imgur.com/tfMMiyy.png" alt="" id="eye3">
-                <img src="https://i.imgur.com/KV4oqlb.png" alt="" id="eye4">
-                <img src="https://i.imgur.com/erHxLyR.png" alt="" id="eye5">
-                <img src="https://i.imgur.com/BReCNSO.png" alt="" id="eye6">
-                <img src="https://i.imgur.com/SVawTnq.png" alt="" id="eye7">
-                <img src="https://i.imgur.com/ysWKfpg.png" alt="" id="eye8">
-                <img src="https://i.imgur.com/TUL9MfX.png" alt="" id="eye9">
-                <img src="https://i.imgur.com/4ziMi29.png" alt="" id="eye10">
-                <img src="https://i.imgur.com/fV8BbW3.png" alt="" id="eye11">
-                <img src="https://i.imgur.com/wUvXC65.png" alt="" id="eye12">
-              </div>
-              <input id="nose-tab" accept=""type="radio" name="grp">
-              <label for="nose-tab"><img src="png/nose-icon.png" id="nose-icon" alt=""></label>
-              <div class="nose">
-                <img src="https://i.imgur.com/smWFWU6.png" alt=""id="nose1">
-                <img src="https://i.imgur.com/qS6IpIT.png" alt="" id="nose2">
-                <img src="https://i.imgur.com/b1cZ81p.png" alt="" id="nose3">
-                <img src="https://i.imgur.com/D6ff961.png" alt="" id="nose4">
-                <img src="https://i.imgur.com/nne2XKI.png" alt="" id="nose5">
-                <img src="https://i.imgur.com/Z3xdGmS.png" alt="" id="nose-a">
-                <img src="https://i.imgur.com/pEKN8aT.png" alt="" id="nose-b">
-                <img src="https://i.imgur.com/jfcRJqF.png" alt="" id="nose-c">
-              </div>
-              <input id="mouth-tab" accept=""type="radio" name="grp">
-              <label for="mouth-tab"><img src="png/mouth-icon.png" id="mouth-icon" alt=""></label>
-              <div class="mouth">
-                <img src="https://i.imgur.com/aDBq6Xl.png" alt=""id="mouth1">
-                <img src="https://i.imgur.com/VmMEyfI.png" alt="" id="mouth2">
-                <img src="https://i.imgur.com/WDWkmDe.png" alt="" id="mouth3">
-                <img src="https://i.imgur.com/gv1Lgpv.png" alt="" id="mouth4">
-                <img src="https://i.imgur.com/Npmyw5O.png" alt="" id="mouth5">
-              </div>
-              <input id="shirt-tab" accept=""type="radio" name="grp">
-              <label for="shirt-tab"><img src="png/shirt-icon.png" id="shirt-icon" alt=""></label>
-              <div class="shirts">
-                <img src="https://i.imgur.com/ICwDAhL.png" alt=""id="shirt1">
-                <img src="https://i.imgur.com/Tjnjq5f.png" alt=""id="shirt2">
-                <!-- <img src="https://i.imgur.com/5YjXhoh.png" alt=""id="shirt3"> -->
-                <img src="https://i.imgur.com/0JOJCwA.png" alt=""id="shirt4">
-                <img src="https://i.imgur.com/FMrdWXN.png" alt=""id="shirt5">
-                <img src="https://i.imgur.com/3BgwHdf.png" alt=""id="shirt6">
-                <img src="https://i.imgur.com/BPlywcx.png" alt=""id="shirt7">
-                <img src="https://i.imgur.com/8QeU4Qg.png" alt=""id="shirt8">
-                <img src="https://i.imgur.com/GgFbdyK.png" alt=""id="shirt9">
-                <img src="https://i.imgur.com/vK324rj.png" alt=""id="shirt10">
-                <!-- <img src="https://i.imgur.com/GgFbdyK.png" alt=""id="shirt11"> -->
-              </div>
-            </div> <!-- end of tab menu -->
-          </div>
-        </section><!--end of menu section -->
-      </div><!--end of wrapper -->
-      <div class= "scene">
-        <img src="png/play-again-btn.png" alt="" id="play-again">
-        <div class="scene-characters">
-          <div class="character"></div>
-          <div class="bubble">
-            <p>You owe me 1000,000,000 Bells!</p>
-          </div>
-          <img src="png/tomnook.png" alt="Mr. Tom Nook. Raccoon." id="Nook">
-        </div>
-      </div>
-    </div> <!--end of container -->
+      </section> <!--end of footer section -->
+    </div><!--end of wrapper -->
+    <div class= "scene">
+      <div class="character"></div>
+    </div>
+    <div class="btn-container">
+      <img src="png/play-again-btn.png" alt="" id="play-again">
+    </div>
   </body>
 </html>
