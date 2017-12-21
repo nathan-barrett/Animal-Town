@@ -60,8 +60,6 @@ var mouth = function(grasshopper){
 
 $(document).ready(function(){
 
-  $('.btn-container').hide();
-
   $('#capture').click(function(){
     var canvasbody = document.getElementById("body");
     var body    = canvasbody.toDataURL("image/png");
@@ -78,17 +76,15 @@ $(document).ready(function(){
     var canvasmouth = document.getElementById("mouth");
     var mouth    = canvasmouth.toDataURL("image/png");
 
-    $('.wrapper').addClass('slide');
-    $('.scene').addClass('show');
+    $('.wrapper').css("animation", "slide-out 1s linear forwards");
+    $('.scene').css("animation", "slide-up 1s linear forwards");
     $('.character').append('<img src="'+body+'"/>');
     $('.character').append('<img src="'+shirt+'"/>');
     $('.character').append('<img src="'+eye+'"/>');
     $('.character').append('<img src="'+nose+'"/>');
     $('.character').append('<img src="'+mouth+'"/>');
-    $('.btn-container').addClass('btn-show');
-    $('.btn-container').show();
 
-    $('#play-again').click(function () {
+    $('#play-again').click(function(){
       location.reload();
     });
   });

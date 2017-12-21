@@ -1,3 +1,7 @@
+.container {
+  overflow: hidden;
+  height: 100vh;
+}
 
 //Top Color and Species Selectors
 
@@ -254,14 +258,56 @@ width: 100%;
 
 //Character Display Stuff
 
-.scene, .character {
-  transition: all 1s ease-in;
+.scene {
+  padding: 15px;
+  width: 90vw;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 80vh;
+  transform: translateY(100%);
 }
 
-.scene {
-  width: 100vw;
-  position: relative;
-  height: 40vh;
+.scene-characters {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  & #Nook {
+    width: auto;
+    height: 360px;
+  }
+}
+
+.bubble
+{
+position: relative;
+width: 210px;
+height: 135px;
+padding: 0px;
+background: #FFFFFF;
+border-radius: 25px;
+text-align: center;
+font-size: 25px;
+transform: scale(0);
+animation: grow 1s ease-in-out forwards;
+animation-delay: 2s
+}
+
+.bubble:after
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 15px 0 15px 33px;
+border-color: transparent #FFFFFF;
+display: block;
+width: 0;
+z-index: 1;
+margin-top: -15px;
+right: -33px;
+top: 50%;
 }
 
 .character {
