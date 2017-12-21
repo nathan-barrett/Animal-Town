@@ -152,6 +152,7 @@
       width: 100%;
       label {
         background: green;
+        border-radius: 50%;
         border: 1px solid #ddd;
         display: flex;
         align-items: center;
@@ -168,11 +169,15 @@
       .eyes, .nose, .mouth, .shirts {
         width: 100%;
         margin-top: -1px;
+        height: 100%;
         padding-left: 5px;
         order: 1;
         img {
           width: 30%;
           padding: 30px;
+          background-color: #d4f7d4;
+          margin-bottom: 10px;
+          border-radius: 50%;
         }
       }
     }
