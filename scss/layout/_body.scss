@@ -208,6 +208,20 @@ width: 100%;
 
 }
 
+.say-cheese {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  p {
+    color: #ffc838;
+    text-shadow: 2px 2px #b38d27;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 5px;
+    display: block;
+  }
+}
+
 //Character Display Stuff
 
 .scene, .character {
