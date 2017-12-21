@@ -364,10 +364,10 @@ $(document).ready(function(){
     shirt('https://i.imgur.com/sgKcEyI.png');
   });
   $('#shirt9').click(function(){
-    shirt('https://i.imgur.com/cA02aGN.png');
+    shirt('https://i.imgur.com/qnpHnxD.png');
   });
   $('#shirt10').click(function(){
-    shirt('https://i.imgur.com/cA02aGN.png');
+    shirt('https://i.imgur.com/lwdMcau.png');
   });
   $('#shirt11').click(function(){
     shirt('https://i.imgur.com/cA02aGN.png');

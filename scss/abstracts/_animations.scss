@@ -58,59 +58,49 @@
   100% { top: 90%; display: inline-flex; opacity: 1;}
 }
 
-.opening {
-  animation: bounceIn 3s linear;
-  display: flex;
-  align-content: center;
-  justify-content: center;
-  height: 100%;
-  width: 100%;
-  img {
-    width: 1000px;
-    height: 800px;
-  }
-}
+// .opening {
+//   animation: bounceIn 1s linear;
+//   z-index: 20px;
+//   display: flex;
+//   align-content: center;
+//   justify-content: center;
+//   height: 100%;
+//   width: 100%;
+//   img {
+//     width: 1000px;
+//     height: 800px;
+//   }
+// }
 
 @keyframes bounceIn {
+  from, 20%, 40%, 60%, 80%, to {
+    animation-timing-function: cubic-bezier(0.2, 0.6, 0.3, 1.000);
+  }
+
   0% {
+    opacity: 0;
+    transform: scale3d(.3, .3, .3);
+  }
+
+  20% {
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+
+  40% {
+    transform: scale3d(.9, .9, .9);
+  }
+
+  60% {
     opacity: 1;
-    transform: translateY(-100vh);
-  }
-  5% {
-    transform: translateY(0);
-  }
-  15% {
-    transform: translateY(-40vh);
-  }
-  28% {
-    transform: translateY(0);
-  }
-
-  38% {
-    transform: translateY(-20vh);
-  }
-
-  49% {
-    transform: translateY(0vh);
-  }
-
-  52%{
-    transform: translateY(-10vh);
-  }
-
-  66% {
-    transform: translateY(0);
-  }
-
-  71%{
-    transform: translateY(-5vh);
+    transform: scale3d(1.03, 1.03, 1.03);
   }
 
   80% {
-    opacity: 1;
-    transform: translateY(0);
+    transform: scale3d(.97, .97, .97);
   }
-  100% {
-    opacity: 0;
+
+  to {
+    opacity: 1;
+    transform: scale3d(1, 1, 1);
   }
 }
