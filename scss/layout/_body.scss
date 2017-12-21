@@ -164,6 +164,7 @@ svg {
    border-radius: 25px;
    border: 20px solid transparent;
    border-image: url("../png/border.png") 25% repeat;
+   min-width: 492.7px;
    .para-tainer {
     line-height: 60px;
     display: flex;
@@ -177,6 +178,7 @@ svg {
      flex-wrap: wrap;
      width: 100%;
      justify-content: flex-start;
+     min-width: 425.2px;
      label {
        background: $color6;
        border-radius: 35%;
