@@ -37,15 +37,15 @@
   border-radius: 15px;
   border-image: url("../png/border.png") 25% repeat;
   background: $color4;
-  width: 60vw;
+  width: 40vw;
   height: 250px;
   margin: 15px;
   padding: 14px;
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
   justify-content: space-around;
+  align-items: center;
+
   .name {
     border-bottom: 1px solid $color1;
     text-align: center;
@@ -56,8 +56,8 @@
     border-radius: 20px;
     margin: 2px 10px;
     background: aliceblue;
-    height: 120px;
-    width: 120px;
+    height: 180px;
+    width: 200px;
     img {
       width: 110%;
       height: auto;
@@ -69,8 +69,9 @@
     margin: 2px 6px;
     background: $color3;
     color: $color1;
-    width: 45%;
-    padding: 2%;
+    width: 60%;
+    height: 180px;
+    padding: 10px;
     li {
       line-height: 30px;
     }
