@@ -78,6 +78,7 @@ $(document).ready(function(){
 
     $('.wrapper').css("animation", "slide-out 1s linear forwards");
     $('.scene').css("animation", "slide-up 1s linear forwards");
+    $('.scene').css("display", "flex");
     $('.character').append('<img src="'+body+'"/>');
     $('.character').append('<img src="'+shirt+'"/>');
     $('.character').append('<img src="'+eye+'"/>');
