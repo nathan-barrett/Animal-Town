@@ -38,3 +38,60 @@
   75% { top: 45%; opacity: .7; }
   100% { top: 90%; display: inline-flex; opacity: 1;}
 }
+
+.opening {
+  animation: bounceIn 3s linear;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  img {
+    width: 1000px;
+    height: 800px;
+  }
+}
+
+@keyframes bounceIn {
+  0% {
+    opacity: 1;
+    transform: translateY(-100vh);
+  }
+  5% {
+    transform: translateY(0);
+  }
+  15% {
+    transform: translateY(-40vh);
+  }
+  28% {
+    transform: translateY(0);
+  }
+
+  38% {
+    transform: translateY(-20vh);
+  }
+
+  49% {
+    transform: translateY(0vh);
+  }
+
+  52%{
+    transform: translateY(-10vh);
+  }
+
+  66% {
+    transform: translateY(0);
+  }
+
+  71%{
+    transform: translateY(-5vh);
+  }
+
+  80% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+  }
+}
