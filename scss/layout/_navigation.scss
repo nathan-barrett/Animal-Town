@@ -33,3 +33,14 @@ nav {
     }
   }
 }
+
+.btn-container {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+
+  img {
+    width: 150px;
+    height: auto;
+  }
+}
