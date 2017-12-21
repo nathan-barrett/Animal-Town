@@ -84,7 +84,7 @@ $(document).ready(function(){
     $('.character').append('<img src="'+nose+'"/>');
     $('.character').append('<img src="'+mouth+'"/>');
 
-    $('#play-again').click(function () {
+    $('#play-again').click(function(){
       location.reload();
     });
   });

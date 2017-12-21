@@ -8,6 +8,15 @@
   }
 }
 
+@keyframes grow {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
 @keyframes dynastid {
     0% {
       transform: rotate(-33.2deg);
