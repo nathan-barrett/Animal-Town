@@ -31,6 +31,16 @@
     }
   }
 
+@keyframes slide-out {
+      0% { transform: translateX(0%);}
+      100% { transform: translateX(-100%); display: none; }
+}
+
+@keyframes slide-up {
+      0% { transform: translateY(0%);}
+      100% { transform: translateY(-80%);}
+}
+
 @keyframes slide {
   0% { top: -100%; }
   25% { top: -50%; opacity: 0.2;}

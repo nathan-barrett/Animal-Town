@@ -1,3 +1,14 @@
-#capture:hover{
+#capture {
+  &:hover {
   cursor: pointer;
+  }
+  &:active {
+    transform: scale(0.75);
+  }
+}
+
+#play-again {
+  width: 130px;
+  position: absolute;
+  left: 50%;
 }

@@ -1,3 +1,7 @@
+.container {
+  overflow: hidden;
+  height: 100vh;
+}
 
 //Top Color and Species Selectors
 
@@ -215,14 +219,26 @@ width: 100%;
 
 //Character Display Stuff
 
-.scene, .character {
-  transition: all 1s ease-in;
+.scene {
+  padding: 15px;
+  width: 90vw;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 80vh;
+  transform: translateY(100%);
 }
 
-.scene {
-  width: 100vw;
-  position: relative;
-  height: 40vh;
+.scene-characters {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  & #Nook {
+    width: auto;
+    height: 360px;
+  }
 }
 
 .character {
