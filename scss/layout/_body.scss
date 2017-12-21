@@ -304,7 +304,8 @@ width: 100%;
   font-size: 25px;
   transform: scale(0);
   animation: grow 500ms ease-in-out forwards;
-  animation-delay: 2s;
+  animation-delay: 3s;
+  z-index: 1;
 }
 
 .bubble:after {
@@ -315,10 +316,15 @@ width: 100%;
   border-color: transparent #FFFFFF;
   display: block;
   width: 0;
-  z-index: 1;
+  z-index: 2;
   margin-top: -15px;
   right: -33px;
   top: 50%;
+}
+
+.character-container {
+  animation: grow 500ms ease-in-out forwards;
+  animation-delay: 3s;
 }
 
 .character {
