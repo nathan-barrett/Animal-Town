@@ -45,6 +45,7 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  min-width: 572px;
 
   .name {
     border-bottom: 1px solid $color1;
@@ -60,6 +61,7 @@
     width: 200px;
     img {
       width: 110%;
+      min-width: 185px;
       height: auto;
     }
   }
@@ -72,6 +74,7 @@
     width: 60%;
     height: 180px;
     padding: 10px;
+    min-width: 294px;
     li {
       line-height: 30px;
     }
