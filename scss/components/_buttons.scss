@@ -9,12 +9,17 @@
 
 #play-again {
   width: 130px;
-  position: absolute;
-  left: 50%;
+  transform: scale(0);
+  animation: grow 300ms ease-in-out forwards;
+  animation-delay: 3s;
+
   &:hover {
   cursor: pointer;
   }
+
   &:active {
     transform: scale(0.75);
+    animation: none;
+    animation-delay: none;
   }
 }
