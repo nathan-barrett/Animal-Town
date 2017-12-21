@@ -33,9 +33,7 @@
 }
 
 .teammate {
-  border: 15px solid transparent;
-  border-radius: 15px;
-  border-image: url("../png/border.png") 25% repeat;
+  @include border;
   background: $color4;
   width: 40vw;
   height: 250px;

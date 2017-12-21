@@ -5,3 +5,9 @@
 .show {
   transform: translateY(-100%);
 }
+
+@mixin border {
+  border: 20px solid transparent;
+  border-image: url("../png/border.png") 25% repeat;
+  border-radius: 25px;
+}
