@@ -7,6 +7,15 @@
   }
 }
 
+@mixin button {
+  &:hover {
+  cursor: pointer;
+  }
+  &:active {
+    transform: scale(0.75);
+  }
+}
+
 #play-again {
   width: 130px;
   transform: scale(0);

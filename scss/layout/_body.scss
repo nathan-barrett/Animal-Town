@@ -198,7 +198,7 @@ svg {
        }
      }
      .eyes, .nose, .mouth, .shirts {
-       cursor: pointer;
+       // cursor: pointer;
        width: 100%;
        margin-top: -1px;
        height: 350px;
@@ -207,6 +207,7 @@ svg {
        margin-right: 5px;
        order: 1;
        img {
+         @include button;
          height: auto;
          object-fit: contain;
          min-height: 90px;
