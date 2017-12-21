@@ -293,6 +293,16 @@ width: 100%;
   }
 }
 
+.sweat {
+  position: absolute;
+  z-index: 6;
+  width: 180px;
+  left: 25%;
+  animation: sweat 500ms ease-in-out forwards;
+  animation-delay: 3s;
+  visibility: hidden;
+}
+
 .bubble {
   position: relative;
   width: 210px;
@@ -304,7 +314,7 @@ width: 100%;
   font-size: 25px;
   transform: scale(0);
   animation: grow 500ms ease-in-out forwards;
-  animation-delay: 3s;
+  animation-delay: 2s;
   z-index: 1;
 }
 
@@ -320,11 +330,6 @@ width: 100%;
   margin-top: -15px;
   right: -33px;
   top: 50%;
-}
-
-.character-container {
-  animation: grow 500ms ease-in-out forwards;
-  animation-delay: 3s;
 }
 
 .character {
