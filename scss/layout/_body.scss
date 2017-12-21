@@ -271,10 +271,10 @@ width: 100%;
 //Character Display Stuff
 
 .scene {
+  display: none;
   padding: 15px;
   width: 90vw;
   position: relative;
-  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
