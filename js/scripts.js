@@ -350,5 +350,11 @@ $(document).ready(function(){
   $('#shirt9').click(function(){
     shirt('https://i.imgur.com/cA02aGN.png');
   });
+  $('#shirt10').click(function(){
+    shirt('https://i.imgur.com/cA02aGN.png');
+  });
+  $('#shirt11').click(function(){
+    shirt('https://i.imgur.com/cA02aGN.png');
+  });
 
 });
