@@ -126,9 +126,8 @@ svg {
     height: 600px;
     width: 650px;
     background: $color4;
-    border: 25px solid transparent;
-    border-radius: 20px;
-    border-image: url("../png/border.png") 25% repeat;
+    @include border;
+    min-width: 650px;
      canvas {
       position: absolute;
       #canvas {
@@ -161,9 +160,7 @@ svg {
    justify-content: flex-start;
    // justify-content: space-between;
    background: $color4;
-   border-radius: 25px;
-   border: 20px solid transparent;
-   border-image: url("../png/border.png") 25% repeat;
+   @include border;
    min-width: 492.7px;
    .para-tainer {
     line-height: 60px;
@@ -255,6 +252,7 @@ width: 100%;
   align-self: flex-end;
   margin-left: 30px;
   margin-right: 30px;
+  min-width: 130px;
 }
 
 .say-cheese {
